@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Fonts-->
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@0,400;1,400;0,600;1,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/logo_2.png' | relative_url }}">
+  </head>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.querySelector(".nav-toggle");
+    const menu = document.querySelector(".nav-menu");
+
+    toggle.addEventListener("click", function () {
+      menu.classList.toggle("open");
+    });
+
+    document.querySelectorAll(".nav-menu a").forEach(link => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("open");
+      });
+    });
+  });
+</script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggles = document.querySelectorAll(".icon-toggle");
+
+ 
+  // click on first item on page open
+  //if (toggles.length > 0) {
+  //  toggles[0].click(); 
+  //}
+
+  toggles.forEach((toggle) => {
+    toggle.addEventListener("click", function () {
+      const textId = toggle.dataset.text;
+      const currentDropdown = document.getElementById(textId);
+
+      // Hide all other text blocks
+      document.querySelectorAll(".icon-text").forEach((block) => {
+        if (block !== currentDropdown) {
+          block.classList.remove("open");
+        }
+      });
+
+      // Toggle current block
+      currentDropdown.classList.toggle("open");
+    });
+  });
+});
+</script>
+  
+  <!--Script for header scrolling -->
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector(".site-header");
+    if (!header) return;
+
+    const isHome = document.body.classList.contains("home");
+
+    // If NOT home, force scrolled state immediately
+    if (!isHome) {
+      header.classList.add("scrolled");
+      return;
+    }
+
+    // Home page: toggle on scroll
+    const threshold = window.innerHeight;
+
+    function handleScroll() {
+      if (window.scrollY > threshold) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // run once on load
+  });
+  </script>
+  
+  <script> // Sliding text script
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        root: null,
+        threshold: 0.15, // How much of the element is necessary to be in screen
+        // rootMargin: "0px 0px -200px 0px" // Distnace the item nees to be in the screen to trigger 
+      }
+    );
+
+    document.querySelectorAll(".text-slide").forEach(el => {
+      observer.observe(el);
+    });
+  });
+</script>
+
+  <!--Header and footer-->
+<body class="
+  {% if page.url == '/' or page.url == '/index.html' %}home{% else %}not-home{% endif %}
+  {% if page.after_banner %}after-banner{% endif %}
+">
+    {% include header.html %}
+    <main class="page-content">
+      {{ content }}
+    </main>
+     {% include footer.html %}
+  </body>
+</html>

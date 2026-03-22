@@ -1,3 +1,3 @@
-# Reverie
+# reverie
+Website for reverie barqoue
 
-Website for reverie baroque

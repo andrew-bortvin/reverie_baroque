@@ -1,0 +1,15 @@
+title: prosopopoeia
+description: Website for Early Music group, Prosopopoeia Ensemble
+baseurl: "/prosopopoeia"
+theme: minima
+
+minima:
+  include_custom_css: true
+
+header_pages:
+  - about.md
+  - members.md
+  - programmes.md
+  - schedule.md
+  - watch_listen.md
+  - contact.md
