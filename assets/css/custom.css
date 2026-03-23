@@ -159,7 +159,7 @@ html, body {
 
 /* Header container - when scrolled*/
 .site-header.scrolled {
-  background-color: #000000;
+  background-color: transparent;
 }
 
 /*Header font - when scrolled*/
