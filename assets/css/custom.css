@@ -135,6 +135,7 @@ html, body {
 /* Header container - when not scrolled*/
 .site-header {
   display: flex;
+  flex-direction: column; 
   height: 100vh;
   transition: background-color 0.3s ease, height 0.3s ease;
   width: 10%;
@@ -147,6 +148,7 @@ html, body {
 
 /*Header font pre-scroll*/
 .site-header .nav-menu  a {
+  color: #000000;
   transition: color 0.3s ease;
 }
 
