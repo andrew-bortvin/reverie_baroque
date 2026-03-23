@@ -134,15 +134,12 @@ html, body {
 
 /* Header container - when not scrolled*/
 .site-header {
-  display: flex; 
-  align-items: center; /*vertical center text*/
-  height: 5em;
+  display: flex;
+  height: 100vh;
   transition: background-color 0.3s ease, height 0.3s ease;
-  width: 100%;
-  background-color: rgba(59, 67, 159, 0); /*!important;*/
-  /*backdrop-filter: saturate(180%) blur(6px);*/
+  width: 10%;
+  background-color: transparent;
   position: fixed !important;
-  top: 0;
   z-index: 9999;
   border: none !important;
   box-shadow: none !important;
@@ -150,20 +147,19 @@ html, body {
 
 /*Header font pre-scroll*/
 .site-header .nav-menu  a {
-  color: #222;
   transition: color 0.3s ease;
 }
 
 /*Header font pre-scroll*/
 .site-header .nav-menu  a:hover {
-  color: #4682B4;
+  color: #ffffff;
   transition: color 0.3s ease;
 }
 
 
 /* Header container - when scrolled*/
 .site-header.scrolled {
-  background-color: #4682B4;
+  background-color: #ffffff;
 }
 
 /*Header font - when scrolled*/
@@ -173,7 +169,7 @@ html, body {
 
 /*Header font - when scrolled*/
 .site-header.scrolled .nav-menu  a:hover {
-  color: #FF4B33 !important;
+  color: #ffffff !important;
 }
 
 
