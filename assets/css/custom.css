@@ -152,24 +152,24 @@ html, body {
 
 /*Header font pre-scroll*/
 .site-header .nav-menu  a:hover {
-  color: #ffffff;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
 
 /* Header container - when scrolled*/
 .site-header.scrolled {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 /*Header font - when scrolled*/
 .site-header.scrolled .nav-menu  a {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 /*Header font - when scrolled*/
 .site-header.scrolled .nav-menu  a:hover {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 
