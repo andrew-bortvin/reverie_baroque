@@ -385,11 +385,6 @@ html, body {
   gap: 0rem;
 }
 
-.nav-menu li {
-  margin: 0;
-  padding: 0;
-}
-
 .nav-menu ul {
   display: flex;
   gap: 0rem;
@@ -538,7 +533,7 @@ div.icon-text p {
     white-space: nowrap;
     display: block;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0;
     text-align: left;
     overflow-wrap: anywhere;
     text-decoration: none;
