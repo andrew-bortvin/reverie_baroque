@@ -385,6 +385,11 @@ html, body {
   gap: 0rem;
 }
 
+.nav-menu li {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-menu ul {
   display: flex;
   gap: 0rem;
