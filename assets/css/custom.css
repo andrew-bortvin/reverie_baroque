@@ -2,7 +2,6 @@
 FONTS
 */
 
-
 /*Wide text for members page*/
 .wide-text {
   max-width: 900px;   
@@ -25,7 +24,6 @@ FONTS
   color: #333;
 }
 
-
 /* headers */
 h2 {
   font-family: 'Cormorant Garamond', serif;
@@ -34,7 +32,6 @@ h2 {
   color: #4682B4;
   text-align: center;
 }
-
 
 /* mobile h2 */
 @media (max-width: 768px) {
@@ -45,7 +42,7 @@ h2 {
 
 h3 {
   text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 5rem;
   font-weight: 200;
   color: #000000;
@@ -54,7 +51,7 @@ h3 {
 /*Header for Our Vision*/
 h4 {
   text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 7rem;
   font-style: italic;
   font-weight: 200;
@@ -84,7 +81,7 @@ strong, b {
   font-weight: bold;
 }
 
-/*Sliding text*
+/*Sliding text*/
 /* Initial hidden state */
 .text-slide{
   opacity: 0;
@@ -108,10 +105,7 @@ strong, b {
   }
 }
 
-/**/
-/*Header containers*/
-/**/
-
+/* Header containers */
 html, body {
   margin: 0;
   padding: 0;
@@ -126,87 +120,104 @@ html, body {
   overflow: hidden;
 }
 
-
 .page-content {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-
-/* Header container - when not scrolled*/
+/* Header container */
 .site-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
   height: 100vh;
-  position: fixed !important;
-  transition: background-color 0.3s ease, height 0.3s ease;
   width: 200px;
+  position: fixed !important;
+  top: 0;
+  left: 0;
   background-color: transparent;
   z-index: 9999;
   border: none !important;
   box-shadow: none !important;
+  transition: background-color 0.3s ease, height 0.3s ease;
 }
 
+/* Wrapper for top/bottom layout */
+.site-header .wrapper {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between; /* logo top, nav bottom */
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+/* Site title / logo */
+.site-title {
+  display: flex;
+  align-items: flex-start; /* stays at top */
+  margin: 0 !important;
+  padding-top: 0;
+  flex-shrink: 0;
+}
+
+.site-title img {
+  height: 70px;
+  width: auto;
+  display: block;
+  transition: height 0.3s ease;
+}
+
+/* Nav menu at bottom */
 .site-header .nav-menu {
-  margin-top:  auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;       /* push to bottom */
   gap: 0.1rem;
+  align-items: flex-end;  /* right-aligned; change to flex-start for left */
 }
 
 .site-header .nav-menu p {
-  margin:  0;
-  padding:  0;
+  margin: 0;
+  padding: 0;
   line-height: 1;
 }
 
 .site-header .nav-menu a {
-  margin:  0;
-  padding:  0;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #000000;
   line-height: 1;
-}
-
-
-
-
-/*Header font pre-scroll*/
-.site-header .nav-menu  a {
-  color: #000000;
+  margin: 0;
+  padding: 0;
   transition: color 0.3s ease;
 }
 
-/*Header font pre-scroll*/
-.site-header .nav-menu  a:hover {
-  color: #000000;
-  transition: color 0.3s ease;
+.site-header .nav-menu a:hover {
+  color: #4682B4;
 }
 
-
-/* Header container - when scrolled*/
+/* Scrolled header */
 .site-header.scrolled {
   background-color: transparent;
 }
 
-/*Header font - when scrolled*/
-.site-header.scrolled .nav-menu  a {
+.site-header.scrolled .nav-menu a {
   color: #000000 !important;
 }
 
-/*Header font - when scrolled*/
-.site-header.scrolled .nav-menu  a:hover {
-  color: #000000 !important;
+.site-header.scrolled .nav-menu a:hover {
+  color: #4682B4 !important;
 }
 
-
-/*.page-content.after-banner {
-  padding-top: 10rem;
-}
-*/
-
-
-/**/
-/*Banner image*/
-/**/
-
+/* Banner image */
 .banner-container {
   position: relative;     
   width: 100%;
@@ -228,7 +239,6 @@ html, body {
   margin: 0;
 }
 
-/* Fullscreen image */
 .full-banner {
   width: 100vw;
   height: 100vh; 
@@ -239,74 +249,21 @@ html, body {
   z-index: -1;
 }
 
-/**/
-/*Colored bg section*/
-/**/
+/* Colored background section */
 .blue-bg {
   background-color: #4682B4;
-}
-
-.blue-bg {
-  /*min-height: 50vh; */   
   height: 100vh;
-  padding: 4rem 2rem;     
+  padding: 4rem 2rem;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
-/*text color in blue bg section*/
 .blue-bg p,
 .blue-bg h2 {
   color: white;
 }
 
-/* Shrunk header */
-/*.site-header.shrink {
-  height: 4rem;
-  background-color: rgba(255, 255, 255, 1.0) !important;
-}
-*/
-
-/* Flex container for title and nav */
-.site-header .wrapper {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  flex-direction:  column;
-  justify-content: flex-start;
-  width: 100% ;
-  height:  100%;
-  max-width: 100%;
-  margin: 0;
-  font-family:  'Inter', sans-serif;
-  font-weight: 400;
-  /*font-family: 'Cormorant Garamond', serif;*/
-  /*font-weight: 600;*/
-  box-sizing: border-box;
-  padding: 0 2rem;
-}
-
-/* Site title on the left */
-.site-title { 
-  display: flex;
-  align-items: flex-start;
-  margin: 0 !important;
-  flex-shrink: 0;
-  padding-top: 0;
-  flex-shrink:  0;
-}
-
-/* Big logo image */
-.site-title img {
-  height: 70px;
-  width: auto;
-  display: block;
-  transition: height 0.3s ease;
-  align-items: center;
-}
-
-
-/* Side by side image and text for index page and other*/
+/* Side by side image and text */
 .text-image-row {
   display: flex;
   justify-content: space-between;
@@ -315,7 +272,6 @@ html, body {
   margin: 2rem 0;
 }
 
-/*ibid*/
 .text-column {
   flex: 1;
   font-family: 'Cormorant Garamond', serif;
@@ -326,7 +282,6 @@ html, body {
   text-align: justify;
 }
 
-/*ibid*/
 .image-column {
   flex: 1;
   display: flex;
@@ -334,7 +289,6 @@ html, body {
   align-items: center;
 }
 
-/*ibid*/
 .image-column img {
   max-width: 100%;
   width: 75%;
@@ -342,46 +296,35 @@ html, body {
   border-radius: 8px;
 }
 
-/* Mobile Version */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .text-image-row {
-    flex-direction: column;   /* stack vertically */
+    flex-direction: column;
   }
 
   .text-column,
   .image-column {
-    margin-left: 0rem;
-    padding: 0 1rem; 
-    margin-right: 0rem;
-    flex: unset;              /* variable sizing*/
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1rem;
+    flex: unset;
     width: 90%;
   }
 
-  .image-column img {
-    order: 2; /* image appears first for mobile users*/
-  }
-
-    .text-column {
-    margin: 1rem 0; 
-    padding: 0 1rem;  
-    order: 1; /* image appears first for mobile users*/
-  }
+  .image-column img { order: 2; }
+  .text-column { order: 1; margin: 1rem 0; padding: 0 1rem; }
 }
 
-/* --- NAVIGATION --- */
-
-
-/* Navigation container on the right */
+/* NAVIGATION STYLES */
 .site-nav {
-  font-family:  'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   flex-grow: 0;
-  flex-direction:  column;
+  flex-direction: column;
   display: flex;
-  align-items: flex-start; /*Vertical centering of text*/
+  align-items: flex-start;
 }
 
-/* Hamburger toggle */
 .nav-toggle {
   display: none;
   font-size: 2rem;
@@ -391,46 +334,37 @@ html, body {
   color: black;
 }
 
-/* Menu styles */
-.nav-menu {
-  display: flex;
-  flex-direction: column;   
-  align-items: flex-end; 
-  gap: 0rem;
-}
-
 .nav-menu ul {
   display: flex;
-  gap: 0rem;
+  flex-direction: column;
+  gap: 0.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1.0rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
+/* Menu links */
 .nav-menu a {
   text-decoration: none;
-  /*color: black;*/
-  font-weight: 100;
-  padding-left: 0.2rem;
-  margin: 0;
-  display:  block;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.3rem;
+  font-weight: 100;
+  color: black;
+  line-height: 1;
+  display: block;
+  width: 100%;
+  padding: 0;
+  text-align: left;
 }
 
+/* Icon grid */
 .icon-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  margin-top: 2rem;
-  margin: 0 auto; 
-  padding: 0 2rem;           
-  /*max-width: 1200px;*/                   
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .icon-item {
@@ -443,27 +377,20 @@ html, body {
   position: relative;
 }
 
-div.icon-text p {
-  font-size: 1rem;
-}
-
-
-/* for scaling on mobile*/
 .icon-item img {
-  width: 100%;          
-  height: auto;         
-  display: block;       
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
 
 .icon-toggle {
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
-  transition: transform 0.3s ease;
   display: block;
   margin: 0 auto;
+  transition: transform 0.3s ease;
 }
 
 .icon-toggle img {
@@ -477,33 +404,26 @@ div.icon-text p {
 }
 
 .icon-dropdown {
-  width: 100%;          
-  box-sizing: border-box; 
-  padding: 0.5rem;    
-  text-align: left;     
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  text-align: left;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
   transition: opacity 0.4s ease, max-height 0.4s ease;
   margin-top: 1rem;
-  text-align: left;
   font-size: 0.95rem;
   line-height: 1.4;
 }
 
-/* --- MOBILE STYLES --- */
-/* --- MOBILE NAVIGATION & ICON GRID --- */
+/* MOBILE STYLES */
 @media (max-width: 768px) {
+  .nav-toggle { display: block; }
 
-  /* --- Hamburger toggle visible --- */
-  .nav-toggle {
-    display: block;
-  }
-
-  /* --- Mobile menu panel (hidden by default) --- */
   .nav-menu {
-    display: none;                /* hidden until "open" */
-    flex-direction: column;       /* stack items vertically */
+    display: none;
+    flex-direction: column;
     position: absolute;
     top: 100%;
     left: 0;
@@ -511,111 +431,28 @@ div.icon-text p {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     z-index: 10000;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 400%;  /* wider menu*/
-    margin-left: -6rem; /* shift back to align left */
+    width: 400%;
+    margin-left: -6rem;
   }
 
-  /* --- Show menu when hamburger is toggled --- */
-  .nav-menu.open {
-    display: flex;
-  }
+  .nav-menu.open { display: flex; }
 
-  /* --- Menu list --- */
   .nav-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0.5rem 1rem;
-    display: flex;
-    flex-direction: column;       /* vertical stack */
-    gap: 0.5rem;
-    width: 200%;   /* move left */
-    margin-left: 0; /* shift back to align left */
-    box-sizing: border-box;
-  }
-
-  .nav-menu li {
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-menu a {
-    writing-mode: horizontal-tb;
-    flex-direction: initial;
-    white-space: nowrap;
-    display: block;
-    width: 100%;
-    padding: 0;
-    text-align: left;
-    overflow-wrap: anywhere;
-    text-decoration: none;
-    color: black;
-    font-weight: 100;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem;
-  }
-
-  /* Shrink wrapper padding on mobile */
-  .site-header .wrapper {
-    padding: 0 1rem;
-  }
-
-  /* --- Icon grid mobile adjustments --- */
-  .icon-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
-  .icon-item {
-    flex: 1 1 calc(33.33% - 1rem);
-    max-width: calc(33.33% - 1rem);
-    text-align: center;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
+    gap: 0.5rem;
+    width: 200%;
+    margin-left: 0;
+    padding: 0.5rem 1rem;
   }
 
-  /* Icon images scale with container */
-  .icon-item img,
-  .icon-toggle img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    display: block;
-  }
+  .site-header .wrapper { padding: 0 1rem; }
 
-  /* Icon dropdown text */
-  .icon-dropdown {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0.5rem;
-    text-align: left;
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
-    margin-top: 1rem;
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-
-  .icon-dropdown.open {
-    opacity: 1;
-    max-height: 1000px;
-  }
+  .icon-grid { gap: 1rem; padding: 0 1rem; }
+  .icon-item { flex: 1 1 calc(33.33% - 1rem); max-width: calc(33.33% - 1rem); }
+  .icon-item img, .icon-toggle img { max-width: 200px; }
+  .icon-dropdown.open { opacity: 1; max-height: 1000px; }
 }
 
-/* --- Narrow screens (phones) --- */
 @media (max-width: 400px) {
-  .icon-item {
-    flex: 1 1 calc(45% - 1rem);
-    max-width: calc(45% - 1rem);
-  }
+  .icon-item { flex: 1 1 calc(45% - 1rem); max-width: calc(45% - 1rem); }
 }
