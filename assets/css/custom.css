@@ -364,8 +364,7 @@ html, body {
   flex-grow: 0;
   flex-direction:  column;
   display: flex;
-  justify-content: flex-end;
-  align-items: center; /*Vertical centering of text*/
+  align-items: flex-start; /*Vertical centering of text*/
 }
 
 /* Hamburger toggle */
