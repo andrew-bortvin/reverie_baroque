@@ -35,7 +35,7 @@ h2 {
 
 /* mobile h2 */
 @media (max-width: 768px) {
-  h2{
+  h2 {
     font-size: 5rem;
   }
 }
@@ -60,7 +60,7 @@ h4 {
 
 /* mobile h4 */
 @media (max-width: 768px) {
-  h2{
+  h4 {
     font-size: 5rem;
   }
 }
@@ -177,9 +177,9 @@ html, body {
 .site-header .nav-menu {
   display: flex;
   flex-direction: column;
-  margin-top: auto;       /* push to bottom */
   gap: 0.1rem;
-  align-items: flex-end;  /* right-aligned; change to flex-start for left */
+  align-items: flex-start;  /* left-aligned */
+  margin: 0;                /* no margin-top needed since space-between handles bottom */
 }
 
 .site-header .nav-menu p {
@@ -316,15 +316,6 @@ html, body {
 }
 
 /* NAVIGATION STYLES */
-.site-nav {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  flex-grow: 0;
-  flex-direction: column;
-  display: flex;
-  align-items: flex-start;
-}
-
 .nav-toggle {
   display: none;
   font-size: 2rem;
