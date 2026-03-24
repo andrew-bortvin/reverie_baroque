@@ -285,7 +285,7 @@ html, body {
 /* Site title on the left */
 .site-title {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 !important;
   flex-shrink: 0;
   padding-top: 0;
