@@ -133,6 +133,11 @@ html, body {
 }
 
 /* Header container - when not scrolled*/
+.site-header .nav-menu {
+  margin-top:  auto;
+  gap: 0.1 rem;
+}
+
 .site-header .nav-menu p {
   margin:  0;
   padding:  0;
