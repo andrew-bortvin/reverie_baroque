@@ -135,47 +135,63 @@ strong, b {
   padding: 0 !important;
 }
 
-/* Header container */
+/* Header container - when not scrolled*/
 .site-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
   height: 100vh;
+  /*position: fixed !important;*/
+  transition: background-color 0.3s ease, height 0.3s ease;
   width: 200px;
   background-color: transparent;
   z-index: 9999;
   border: none !important;
   box-shadow: none !important;
-  transition: background-color 0.3s ease, height 0.3s ease;
 }
 
-/* Navigation menu inside header */
 .site-header .nav-menu {
-  margin-top: auto;
+  margin-top:  auto;
   gap: 0.1rem;
 }
 
-/* Paragraphs and links inside nav menu */
-.site-header .nav-menu p,
-.site-header .nav-menu a {
-  margin: 0;
-  padding: 0;
+.site-header .nav-menu p {
+  margin:  0;
+  padding:  0;
   line-height: 1;
+}
+
+.site-header .nav-menu a {
+  margin:  0;
+  padding:  0;
+  line-height: 1;
+}
+
+/*Header font pre-scroll*/
+.site-header .nav-menu  a {
   color: #000000;
   transition: color 0.3s ease;
 }
 
-.site-header .nav-menu a:hover {
+/*Header font pre-scroll*/
+.site-header .nav-menu  a:hover {
   color: #000000;
+  transition: color 0.3s ease;
 }
 
-/* Header styles when scrolled */
+
+/* Header container - when scrolled*/
 .site-header.scrolled {
   background-color: transparent;
 }
 
-.site-header.scrolled .nav-menu a,
-.site-header.scrolled .nav-menu a:hover {
+/*Header font - when scrolled*/
+.site-header.scrolled .nav-menu  a {
+  color: #000000 !important;
+}
+
+/*Header font - when scrolled*/
+.site-header.scrolled .nav-menu  a:hover {
   color: #000000 !important;
 }
 
