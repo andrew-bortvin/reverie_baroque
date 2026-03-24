@@ -136,6 +136,7 @@ html, body {
 .site-header {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end !important; 
   height: 100vh;
   transition: background-color 0.3s ease, height 0.3s ease;
   width: 200px;
