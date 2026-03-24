@@ -139,7 +139,7 @@ html, body {
   justify-content: flex-start !important; 
   height: 100vh;
   transition: background-color 0.3s ease, height 0.3s ease;
-  width: 10%;
+  width: 200px;
   background-color: transparent;
   position: fixed !important;
   z-index: 9999;
@@ -361,7 +361,8 @@ html, body {
 .site-nav {
   font-family:  'Inter', sans-serif;
   font-weight: 400;
-  flex-grow: 1;
+  flex-grow: 0;
+  flex-direction:  column;
   display: flex;
   justify-content: flex-end;
   align-items: center; /*Vertical centering of text*/
