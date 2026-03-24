@@ -136,12 +136,12 @@ html, body {
 .site-header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end !important; 
-   height: calc(100vh - 5em);
+  justify-content: flex-end; 
+  height: calc(100vh - 5rem);
+  position: fixed !important;
   transition: background-color 0.3s ease, height 0.3s ease;
   width: 200px;
   background-color: transparent;
-  position: fixed !important;
   z-index: 9999;
   border: none !important;
   box-shadow: none !important;
