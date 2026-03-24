@@ -137,7 +137,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end; 
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 15rem);
   position: fixed !important;
   transition: background-color 0.3s ease, height 0.3s ease;
   width: 200px;
