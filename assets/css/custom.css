@@ -135,7 +135,8 @@ html, body {
 /* Header container - when not scrolled*/
 .site-header {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  justify-content: flex-start !important; 
   height: 100vh;
   transition: background-color 0.3s ease, height 0.3s ease;
   width: 10%;
