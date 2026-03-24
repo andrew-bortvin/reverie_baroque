@@ -133,6 +133,12 @@ html, body {
 }
 
 /* Header container - when not scrolled*/
+.site-header .nav-menu p {
+  margin:  0;
+  padding:  0;
+  line-height: 1;
+}
+
 .site-header {
   display: flex;
   flex-direction: column;
