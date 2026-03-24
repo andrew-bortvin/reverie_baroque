@@ -176,14 +176,13 @@ html, body {
 
 /* Menu list */
 .nav-menu {
-  margin-top: auto; /* pushes to bottom */
   display: flex;
   padding: 0;
   padding-left:  0;
-  margin: 0;
   flex-direction: column;
   gap: 0.1rem;
   list-style: none;
+  margin-top: auto; /* pushes to bottom */
 }
 
 .nav-menu a {
