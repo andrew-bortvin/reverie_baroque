@@ -249,7 +249,8 @@ html, body {
 /* Flex container for title and nav */
 .site-header .wrapper {
   display: flex !important;
-  justify-content: space-between !important;
+  flex-direction:  column;
+  justify-content: flex-start !important;
   align-items: center;
   width: 100% !important;
   max-width: 100%;
@@ -393,6 +394,7 @@ html, body {
   font-size: 1.0rem;
   height: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .nav-menu a {
