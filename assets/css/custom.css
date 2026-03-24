@@ -177,15 +177,18 @@ html, body {
 .nav-menu {
   margin-top: auto; /* pushes to bottom */
   display: flex;
+  padding: 0;
+  padding-left:  0;
+  magin; 0;
   flex-direction: column;
   gap: 0.1rem;
   list-style: none;
-  padding: 0;
 }
 
 .nav-menu a {
   line-height: 1;
 }
+
 
 /* Links */
 .nav-menu a {
