@@ -135,7 +135,7 @@ html, body {
 /* Header container - when not scrolled*/
 .site-header .nav-menu {
   margin-top:  auto;
-  gap: 0.1 rem;
+  gap: 0.1rem;
 }
 
 .site-header .nav-menu p {
@@ -152,6 +152,7 @@ html, body {
 
 .site-header {
   display: flex;
+  margin-top:  auto;
   flex-direction: column;
   justify-content: flex-start !important; 
   height: 100vh;
