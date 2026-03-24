@@ -272,6 +272,7 @@ html, body {
   flex: 1;
   display: flex !important;
   align-items: flex-end;
+  margin-top:  auto;
   flex-direction:  column;
   justify-content: flex-start;
   width: 100% ;
