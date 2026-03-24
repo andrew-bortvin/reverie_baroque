@@ -133,6 +133,19 @@ html, body {
 }
 
 /* Header container - when not scrolled*/
+.site-header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: background-color 0.3s ease, height 0.3s ease;
+  width: 200px;
+  background-color: transparent;
+  position: fixed !important;
+  z-index: 9999;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .site-header .nav-menu {
   margin-top:  auto;
   gap: 0.1rem;
@@ -148,21 +161,6 @@ html, body {
   margin:  0;
   padding:  0;
   line-height: 1;
-}
-
-.site-header {
-  display: flex;
-  margin-top:  auto;
-  flex-direction: column;
-  justify-content: flex-start !important; 
-  height: 100vh;
-  transition: background-color 0.3s ease, height 0.3s ease;
-  width: 200px;
-  background-color: transparent;
-  position: fixed !important;
-  z-index: 9999;
-  border: none !important;
-  box-shadow: none !important;
 }
 
 /*Header font pre-scroll*/
