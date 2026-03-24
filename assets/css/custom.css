@@ -270,9 +270,8 @@ html, body {
 /* Flex container for title and nav */
 .site-header .wrapper {
   flex: 1;
-  display: flex !important;
-  align-items: flex-end;
-  margin-top:  auto;
+  display: flex;
+  align-items: flex-start;
   flex-direction:  column;
   justify-content: flex-start;
   width: 100% ;
