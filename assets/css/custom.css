@@ -283,7 +283,7 @@ html, body {
 }
 
 /* Site title on the left */
-.site-title {
+.site-title { 
   display: flex;
   align-items: flex-start;
   margin: 0 !important;
