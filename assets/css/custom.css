@@ -269,7 +269,7 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -280,8 +280,6 @@ html, body {
   height: 8rem;
   object-fit: cover;
 }
-
-
 
 /* =========================
    CONTENT SECTIONS
