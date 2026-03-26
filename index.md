@@ -3,6 +3,15 @@ layout: page
 title: reverie baroque
 ---
 
+<section class="blue-bg">
+  <div class="content">
+    <h2>Reverie baroque</h2>
+    <p class="text-slide">
+      hi
+    </p>
+  </div>
+</section>
+
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
   stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
   Essex of Nantucket, which was attacked and finally destroyed by a
