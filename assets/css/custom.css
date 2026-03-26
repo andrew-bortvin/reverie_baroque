@@ -263,8 +263,8 @@ html, body {
    Index Page Logo
 ========================= */
 
-.full-banner {
-  height: 15rem;
+.idx-logo {
+  height: 8rem;
   object-fit: cover;
   display: block;
 }
