@@ -189,7 +189,7 @@ html, body {
   gap: 0.1rem;
   list-style: none;
   align-items:  flex-start;
-  margin-top: auto; /* pushes to bottom */
+  /*margin-top: auto;  pushes to bottom */
   transform: transform: translateY(60vh);/* push it a bit away from the bottom left corner*/
 }
 
