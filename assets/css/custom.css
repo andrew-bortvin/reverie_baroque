@@ -178,9 +178,8 @@ html, body {
 /* Menu list */
 .nav-menu {
   position:  sticky; /* keep within parent container (ie do not overlap footer)*/
-  bottom: 20px; /*margin for sticky*/ 
   top: 20px; /*final position after scroll*/
-  transform: transform: translateY(60vh);/* push it a bit away from the bottom left corner*/ 
+  transform: translateY(60vh);/* push it a bit away from the bottom left corner*/ 
   transition: transform 0.5s ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
