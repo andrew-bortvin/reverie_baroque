@@ -148,7 +148,7 @@ html, body {
 }
 
 .site-title img {
-  height: 300px;
+  height: 80px;
   width: auto;
   display: block;
   transition: height 0.3s ease;
