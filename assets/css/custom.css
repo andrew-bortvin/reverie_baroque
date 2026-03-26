@@ -270,10 +270,8 @@ html, body {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  justify-content: center; /* horizontal centering*/
+  align-items: center;  /* vertical centering */
 }
 
 .idx-logo {
