@@ -258,6 +258,19 @@ html, body {
   margin: 0;
 }
 
+
+/* =========================
+   Index Page Logo
+========================= */
+
+.full-banner {
+  height: 15rem;
+  object-fit: cover;
+  display: block;
+}
+
+
+
 /* =========================
    CONTENT SECTIONS
 ========================= */
