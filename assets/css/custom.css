@@ -194,7 +194,7 @@ html, body {
 /* Scrolled nav menue*/
 .site-header.scrolled .nav-menu {
   transform: translateY(0);
-  gap: 0.2;
+  gap: 0.2rem;
 }
 
 .nav-menu a {
