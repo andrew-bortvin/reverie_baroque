@@ -180,7 +180,7 @@ html, body {
   position:  sticky; /* keep within parent container (ie do not overlap footer)*/
   bottom: 20px; /*margin for sticky*/ 
   top: 20px; /*final position after scroll*/
-  transform: translateY(100px);
+  transform: transform: translateY(60vh);/* push it a bit away from the bottom left corner*/ 
   transition: transform 0.5s ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
@@ -190,7 +190,6 @@ html, body {
   list-style: none;
   align-items:  flex-start;
   /*margin-top: auto;  pushes to bottom */
-  transform: transform: translateY(60vh);/* push it a bit away from the bottom left corner*/
 }
 
 /* Scrolled nav menue*/
