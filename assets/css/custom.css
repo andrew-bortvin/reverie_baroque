@@ -180,7 +180,7 @@ html, body {
   position:  sticky; /* keep within parent container (ie do not overlap footer)*/
   top: 20px; /*final position after scroll*/
   transform: translateY(60vh);/* push it a bit away from the bottom left corner*/ 
-  transition: transform 3s ease, gap:  3 ease; /* timing for transitions on scroll*/
+  transition: transform 3s ease, gap  3 ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
   padding: 0;
