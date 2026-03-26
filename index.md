@@ -5,7 +5,7 @@ title: reverie baroque
 
 <section class="blue-bg">
   <div class="content">
-    <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="full-banner">
+    <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
     <h2>Reverie baroque</h2>
     <p class="text-slide">
       hi
