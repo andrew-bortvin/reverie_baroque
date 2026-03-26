@@ -177,6 +177,7 @@ html, body {
 
 /* Menu list */
 .nav-menu {
+  position:  sticky; /* keep within parent container (ie do not overlap footer)*/
   display: flex;
   flex-direction: column;
   padding: 0;
