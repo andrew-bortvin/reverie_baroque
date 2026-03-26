@@ -179,7 +179,7 @@ html, body {
 .nav-menu {
   position:  sticky; /* keep within parent container (ie do not overlap footer)*/
   bottom: 20px; /*margin for sticky*/
-  transition: margin-top 0.3s ease; /* timing for transitions on scroll*/
+  transition: margin-top 5s ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
   padding: 0;
