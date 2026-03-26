@@ -216,7 +216,8 @@ html, body {
 }
 
 .nav-menu a:hover {
-  color: #4682B4;
+  color: #000000;
+  /*color: #4682B4;*/
 }
 
 
