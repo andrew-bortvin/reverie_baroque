@@ -3,15 +3,11 @@ layout: page
 title: reverie baroque
 ---
 
-<section class="blue-bg">
-  <div class="content">
+<div class="banner-container">
     <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
-    <h2>Reverie baroque</h2>
-    <p class="text-slide">
-      hi
-    </p>
-  </div>
-</section>
+</div>
+
+
 
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
   stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
