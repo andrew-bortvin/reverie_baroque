@@ -263,12 +263,22 @@ html, body {
    Index Page Logo
 ========================= */
 
+.idx-container {
+  position: relative;
+  background-color: #FFFAED;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .idx-logo {
   height: 8rem;
   object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 

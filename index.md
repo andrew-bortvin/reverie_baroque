@@ -3,7 +3,7 @@ layout: page
 title: reverie baroque
 ---
 
-<div class="banner-container">
+<div class="idx-container">
     <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
 </div>
 
