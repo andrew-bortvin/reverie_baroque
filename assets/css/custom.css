@@ -190,6 +190,11 @@ html, body {
   transform: translate(4rem, -6rem) /* push it a bit away from the bottom left corner*/
 }
 
+/* Scrolled nav menue*/
+.site-header.scrolled .nav-menu {
+  margin-top: 0;
+}
+
 .nav-menu a {
   line-height: 1;
 }
@@ -212,14 +217,11 @@ html, body {
   color: #4682B4;
 }
 
-/* Scrolled */
-.site-header.scrolled .nav-menu a {
-  color: #4682B4 !important;
-}
 
-.site-header.scrolled .nav-menu a:hover {
+
+/*.site-header.scrolled .nav-menu a:hover {
   color: #4682B4 !important;
-}
+}*/
 
 /* =========================
    BANNER
