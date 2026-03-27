@@ -7,7 +7,7 @@ title: reverie baroque
     <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
 </div>
 
-
+  # About us
 
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
   stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
