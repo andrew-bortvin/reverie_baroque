@@ -7,7 +7,9 @@ title: reverie baroque
     <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
 </div>
 
-## About us
+<section id="about">
+  <h2>About us</h2>
+  
 
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
   stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
@@ -53,6 +55,8 @@ title: reverie baroque
   the most dangerous to attack of all the known species of the whale
   tribe.” —_Frederick Debell Bennett’s Whaling Voyage Round the Globe_,
   1840.
+</section>
+
 
 
   October 13.  “There she blows,” was sung out from the mast-head.
