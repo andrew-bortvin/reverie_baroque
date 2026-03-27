@@ -84,8 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
     function handleScroll() {
       if (window.scrollY > threshold) {
         header.classList.add("scrolled");
+        body.classList.add("scrolled");
       } else {
         header.classList.remove("scrolled");
+        body.classList.remove("scrolled");
       }
     }
 
