@@ -151,7 +151,7 @@ html, body {
   height: 80px;
   width: auto;
   display: block;
-  transition: opacity 0.3s ease;
+  transition: opacity 1.2s ease;
   opacity: 0;
 }
 
