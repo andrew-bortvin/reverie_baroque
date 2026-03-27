@@ -67,38 +67,53 @@ document.addEventListener("DOMContentLoaded", function () {
   <!--Script for header scrolling -->
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const header = document.querySelector(".site-header");
-    const body = document.body;
-    const about = document.querySelector("#about");
+  const header = document.querySelector(".site-header");
+  const body = document.body;
 
-    if (!header || !about) return;
+  const sections = document.querySelectorAll("section[id]");
 
-    const isHome = document.body.classList.contains("home");
+  if (!header || sections.length === 0) return;
 
-    // If NOT home, force scrolled state immediately
-    if (!isHome) {
-      header.classList.add("scrolled");
-      return;
+  const isHome = body.classList.contains("home");
+
+  // If NOT home, force header state
+  if (!isHome) {
+    header.classList.add("scrolled");
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+
+        const id = entry.target.id;
+
+        // Remove old body class list
+        body.classList.remove(
+          "section-about",
+          "section-members",
+          "section-schedule"
+        );
+
+        body.classList.add(`section-${id}`);
+
+        // Header 
+        if (id === "about") {
+          header.classList.add("scrolled");
+        } else if (id === "home") {
+          header.classList.remove("scrolled");
+        }
+      });
+    },
+    {
+      root: null,
+      threshold: 0.5, // section is “active” when 50% visible
     }
+  );
 
-    // Home page: toggle on scroll
-    //const threshold = window.innerHeight;
-    function handleScroll() {
-      const rect = about.getBoundingClientRect();
-      
-      //if (window.scrollY > threshold) {
-      if (rect.top <= 0) {
-        header.classList.add("scrolled");
-        body.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-        body.classList.remove("scrolled");
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); // run once on load
-  });
+  sections.forEach(section => observer.observe(section));
+});
   </script>
   
   <script> // Sliding text script
