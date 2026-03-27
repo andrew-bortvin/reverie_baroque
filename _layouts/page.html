@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector(".site-header");
     const body = document.body;
     const about = document.querySelector("#about");
-    if (!header) return;
 
     if (!header || !about) return;
 
@@ -84,9 +83,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Home page: toggle on scroll
     //const threshold = window.innerHeight;
-    const rect = about.getBoundingClientRect();
-
     function handleScroll() {
+      const rect = about.getBoundingClientRect();
+      
       //if (window.scrollY > threshold) {
       if (rect.top <= 0) {
         header.classList.add("scrolled");
