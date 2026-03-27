@@ -30,8 +30,7 @@ h2 {
   font-size: 5rem;
   font-weight: 600;
   color: #4682B4;
-  text-align: center;
-  margin: 12rem;
+  margin-lef: 12rem;
 }
 
 @media (max-width: 768px) {
