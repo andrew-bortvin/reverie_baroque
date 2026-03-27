@@ -10,29 +10,35 @@ title: reverie baroque
 <section id="about">
   <h2>About us</h2>
   
-
+  <p>
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
   stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
   Essex of Nantucket, which was attacked and finally destroyed by a
   large Sperm Whale in the Pacific Ocean_.” _By Owen Chace of
   Nantucket, first mate of said vessel. New York_, 1821.
+ </p>
 
-
+<p>
   “A mariner sat in the shrouds one night, The wind was piping free;
   Now bright, now dimmed, was the moonlight pale, And the phospher
   gleamed in the wake of the whale, As it floundered in the sea.”
   —_Elizabeth Oakes Smith_.
+</p>
 
 
-
+<p>
   “The quantity of line withdrawn from the boats engaged in the capture
   of this one whale, amounted altogether to 10,440 yards or nearly six
   English miles....
+</p>
 
+<p>
   “Sometimes the whale shakes its tremendous tail in the air, which,
   cracking like a whip, resounds to the distance of three or four
   miles.” —_Scoresby_.
+</p>
 
+<p>
   “Mad with the agonies he endures from these fresh attacks, the
   infuriated Sperm Whale rolls over and over; he rears his enormous
   head, and with wide expanded jaws snaps at everything around him; he
@@ -46,7 +52,10 @@ title: reverie baroque
   possessed the most abundant and the most convenient opportunities of
   witnessing their habitudes.” —_Thomas Beale’s History of the Sperm
   Whale_, 1839.
+</p>
 
+
+<p>
   “The Cachalot” (Sperm Whale) “is not only better armed than the True
   Whale” (Greenland or Right Whale) “in possessing a formidable weapon
   at either extremity of its body, but also more frequently displays a
@@ -55,6 +64,7 @@ title: reverie baroque
   the most dangerous to attack of all the known species of the whale
   tribe.” —_Frederick Debell Bennett’s Whaling Voyage Round the Globe_,
   1840.
+</p>
 </section>
 
 
