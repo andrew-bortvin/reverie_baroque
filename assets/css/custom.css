@@ -104,6 +104,16 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-color: #FFFAED; 
+  transition: background-color 1.2s ease;
+}
+
+body.scrolled {
+  background-color: #EDF2FF;
+}
+
+
 .page-content {
   margin: 0 !important;
   padding: 0 !important;
@@ -271,7 +281,7 @@ html, body {
 
 .idx-container {
   position: relative;
-  background-color: #FFFAED;
+  /*background-color: #FFFAED;*/
   width: 100%;
   height: 100vh;
   overflow: hidden;
