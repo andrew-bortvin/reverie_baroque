@@ -69,7 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector(".site-header");
     const body = document.body;
+    const about = document.querySelector("#about");
     if (!header) return;
+
+    if (!header || !about) return;
 
     const isHome = document.body.classList.contains("home");
 
