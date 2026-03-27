@@ -3,9 +3,11 @@ layout: page
 title: reverie baroque
 ---
 
+<section id="home">
 <div class="idx-container">
     <img src="{{ site.baseurl }}/assets/img/full_logo.png" alt="logo" class="idx-logo">
 </div>
+</section>
 
 <section id="about">
   <h2>About us</h2>
