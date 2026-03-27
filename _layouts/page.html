@@ -80,10 +80,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Home page: toggle on scroll
-    const threshold = window.innerHeight;
+    //const threshold = window.innerHeight;
+    const rect = about.getBoundingClientRect();
 
     function handleScroll() {
-      if (window.scrollY > threshold) {
+      //if (window.scrollY > threshold) {
+      if (rect.top <= 0) {
         header.classList.add("scrolled");
         body.classList.add("scrolled");
       } else {
