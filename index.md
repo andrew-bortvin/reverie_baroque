@@ -41,7 +41,7 @@ title: reverie baroque
 
 </section>
 
-<section id="#members">
+<section id="members">
   <h2>Members</h2>
   <p>
   “These things are reciprocal; the ball rebounds, only to bound
@@ -74,7 +74,7 @@ title: reverie baroque
   </p>
 </section>
 
-<section id="#schedule">
+<section id="schedule">
   <h2>Schedule</h2>
 
   <p>
@@ -109,7 +109,7 @@ title: reverie baroque
   </p>
 </section>
 
-<section id="#watch">
+<section id="watch">
   <h2>Watch and Listen</h2>
   <p>
   October 13.  “There she blows,” was sung out from the mast-head.
@@ -139,7 +139,7 @@ title: reverie baroque
   </p>
 </section>
 
-<section id="#contact">
+<section id="contact">
   <h2>Contact</h2>
   <p>
   “Mad with the agonies he endures from these fresh attacks, the

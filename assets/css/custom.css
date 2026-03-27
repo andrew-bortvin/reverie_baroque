@@ -109,10 +109,21 @@ body {
   transition: background-color 1.2s ease;
 }
 
-body.scrolled {
+body.section-about {
   background-color: #EDF2FF;
 }
 
+body.section-members {
+  background-color: #F1EDFF;
+}
+
+body.section-watch {
+  background-color: #FFF1ED;
+}
+
+body.section-contact {
+  background-color: #FBFFED;
+}
 
 .page-content {
   margin: 0 !important;
