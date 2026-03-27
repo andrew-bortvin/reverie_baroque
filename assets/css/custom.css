@@ -152,6 +152,13 @@ html, body {
   width: auto;
   display: block;
   transition: height 0.3s ease;
+  opcaity: 0;
+}
+
+/* Scrolled nav menu*/
+.site-header.scrolled .site-title img {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* =========================
@@ -191,7 +198,7 @@ html, body {
   /*margin-top: auto;  pushes to bottom */
 }
 
-/* Scrolled nav menue*/
+/* Scrolled nav menu*/
 .site-header.scrolled .nav-menu {
   transform: translateY(0);
   gap: 0.2rem;
