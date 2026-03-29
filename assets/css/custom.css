@@ -210,7 +210,7 @@ body.section-contact {
   max-height: calc(100vh - 20px);
   overflow-y: auto;
   /*transform: translateY(50vh);*//* push it a bit away from the bottom left corner*/ 
-  transition: transform 1.2s ease, gap  0.5s ease; /* timing for transitions on scroll*/
+  transition: top 1.2s ease, gap  0.5s ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -225,6 +225,7 @@ body.section-contact {
 /* Scrolled nav menu*/
 .site-header.scrolled .nav-menu {
   transform: translateY(0);
+  top: 0vh;
   gap: 0.5rem;
 }
 
