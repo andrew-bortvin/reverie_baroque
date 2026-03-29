@@ -37,112 +37,148 @@
 
   <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const toggles = document.querySelectorAll(".icon-toggle");
 
- 
-  // click on first item on page open
-  //if (toggles.length > 0) {
-  //  toggles[0].click(); 
-  //}
+  /* =========================
+     NAV TOGGLE
+  ========================== */
+  const toggle = document.querySelector(".nav-toggle");
+  const menu = document.querySelector(".nav-menu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", function () {
+      menu.classList.toggle("open");
+    });
+
+    document.querySelectorAll(".nav-menu a").forEach(link => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("open");
+      });
+    });
+  }
+
+
+  /* =========================
+     ICON TOGGLES
+  ========================== */
+  const toggles = document.querySelectorAll(".icon-toggle");
 
   toggles.forEach((toggle) => {
     toggle.addEventListener("click", function () {
       const textId = toggle.dataset.text;
       const currentDropdown = document.getElementById(textId);
 
-      // Hide all other text blocks
+      if (!currentDropdown) return;
+
       document.querySelectorAll(".icon-text").forEach((block) => {
         if (block !== currentDropdown) {
           block.classList.remove("open");
         }
       });
 
-      // Toggle current block
       currentDropdown.classList.toggle("open");
     });
   });
-});
-</script>
-  
-  <!--Script for header scrolling -->
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
+
+
+  /* =========================
+     HEADER SCROLL (SMOOTH + STABLE)
+     - triggers after 1 viewport height
+  ========================== */
   const header = document.querySelector(".site-header");
   const body = document.body;
-  const sections = document.querySelectorAll("section[id]");
 
-  if (!header || sections.length === 0) return;
+  if (header) {
+    const isHome = body.classList.contains("home");
 
-  const isHome = body.classList.contains("home");
+    if (!isHome) {
+      header.classList.add("scrolled");
+    } else {
+      let lastState = null;
+      let ticking = false;
 
-  if (!isHome) {
-    header.classList.add("scrolled");
-    return;
+      const updateHeader = () => {
+        ticking = false;
+
+        const shouldScroll = window.scrollY > window.innerHeight;
+
+        if (shouldScroll === lastState) return;
+        lastState = shouldScroll;
+
+        header.classList.toggle("scrolled", shouldScroll);
+      };
+
+      window.addEventListener("scroll", () => {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(updateHeader);
+        }
+      }, { passive: true });
+
+      updateHeader();
+    }
   }
 
-  let currentSection = null;
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      // Find the most visible section
-      let visible = entries
-        .filter(entry => entry.isIntersecting)
-        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+  /* =========================
+     SECTION OBSERVER (BODY STATES)
+  ========================== */
+  const sections = document.querySelectorAll("section[id]");
 
-      if (!visible) return;
+  if (sections.length) {
+    let currentSection = null;
 
-      const id = visible.target.id;
-
-      // Avoid unnecessary DOM updates
-      if (currentSection === id) return;
-      currentSection = id;
-
-      // 🔹 Update body classes
-      sections.forEach(sec => {
-        body.classList.remove(`section-${sec.id}`);
-      });
-      body.classList.add(`section-${id}`);
-
-      // 🔹 Header logic (binary)
-      if (id === "home") {
-        header.classList.remove("scrolled");
-      } else {
-        header.classList.add("scrolled");
-      }
-    },
-    {
-      threshold: [0.25, 0.5, 0.75], // multiple thresholds = smoother switching
-    }
-  );
-
-  sections.forEach(section => observer.observe(section));
-});
-</script>
-  
-  <script> // Sliding text script
-  document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
-          }
+      (entries) => {
+        const visible = entries
+          .filter(e => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (!visible) return;
+
+        const id = visible.target.id;
+
+        if (id === currentSection) return;
+        currentSection = id;
+
+        sections.forEach(sec => {
+          body.classList.remove(`section-${sec.id}`);
         });
+
+        body.classList.add(`section-${id}`);
       },
       {
-        root: null,
-        threshold: 0.6, // How much of the element is necessary to be in screen
-        // rootMargin: "0px 0px -200px 0px" // Distnace the item nees to be in the screen to trigger 
+        threshold: [0.2, 0.4, 0.6, 0.8]
       }
     );
 
-    document.querySelectorAll(".text-slide").forEach(el => {
-      observer.observe(el);
-    });
-  });
-</script>
+    sections.forEach(section => observer.observe(section));
+  }
 
+
+  /* =========================
+     SLIDE-IN TEXT ANIMATION
+  ========================== */
+  const slideObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.6
+    }
+  );
+
+  document.querySelectorAll(".text-slide").forEach(el => {
+    slideObserver.observe(el);
+  });
+
+});
+</script>
+  
   <!--Header and footer-->
 <body class="
   {% if page.url == '/' or page.url == '/index.html' %}home{% else %}not-home{% endif %}
