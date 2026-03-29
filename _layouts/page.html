@@ -103,17 +103,15 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       body.classList.add(`section-${id}`);
 
-      // 🔹 Header logic (binary)
-      if (id === "home") {
-        header.classList.remove("scrolled");
-      } else {
-        header.classList.add("scrolled");
+     window.addEventListener("scroll", () => {
+      const shouldBeScrolled = window.scrollY > 100;
+
+      if (shouldBeScrolled !== isScrolled) {
+        document.querySelector(".site-header")
+          .classList.toggle("scrolled", shouldBeScrolled);
+        isScrolled = shouldBeScrolled;
       }
-    },
-    {
-      threshold: [0.25, 0.5, 0.75], // multiple thresholds = smoother switching
-    }
-  );
+    });
 
   sections.forEach(section => observer.observe(section));
 });
