@@ -10,7 +10,7 @@ title: reverie baroque
 </section>
 
 <section id="about">
-  <h4>About us</h4>
+  <h2>About us</h2>
   
   <p>
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
@@ -44,7 +44,7 @@ title: reverie baroque
 </section>
 
 <section id="members">
-  <h4>Members</h4>
+  <h2>Members</h2>
   <p>
   “These things are reciprocal; the ball rebounds, only to bound
   forward again; for now in laying open the haunts of the whale, the
@@ -77,7 +77,7 @@ title: reverie baroque
 </section>
 
 <section id="schedule">
-  <h4>Schedule</h4>
+  <h2>Schedule</h2>
 
   <p>
   “Nantucket itself,” said Mr. Webster, “is a very striking and
@@ -112,7 +112,7 @@ title: reverie baroque
 </section>
 
 <section id="watch">
-  <h4>Watch and Listen</h4>
+  <h2>Watch and Listen</h2>
   <p>
   October 13.  “There she blows,” was sung out from the mast-head.
   “Where away?” demanded the captain. “Three points off the lee bow,
@@ -142,7 +142,7 @@ title: reverie baroque
 </section>
 
 <section id="contact">
-  <h4>Contact</h4>
+  <h2>Contact</h2>
   <p>
   “Mad with the agonies he endures from these fresh attacks, the
   infuriated Sperm Whale rolls over and over; he rears his enormous
