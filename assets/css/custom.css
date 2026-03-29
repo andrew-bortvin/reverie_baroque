@@ -212,7 +212,7 @@ body.section-contact {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-right:  1rem;
+  margin-right: 1rem;
   gap: 1rem;
   list-style: none;
   align-items:  flex-start;
