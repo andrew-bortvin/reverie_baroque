@@ -224,7 +224,6 @@ body.section-contact {
 
 /* Scrolled nav menu*/
 .site-header.scrolled .nav-menu {
-  transform: translateY(0);
   top: 0vh;
   gap: 0.5rem;
 }
