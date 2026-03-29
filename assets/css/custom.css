@@ -210,7 +210,7 @@ body.section-contact {
   max-height: calc(100vh - 20px);
   overflow-y: auto;
   /*transform: translateY(50vh);*//* push it a bit away from the bottom left corner*/ 
-  transition: top 1.2s ease, gap  0.5s ease; /* timing for transitions on scroll*/
+  transition: top 4.0s ease, gap  0.5s ease; /* timing for transitions on scroll*/
   display: flex;
   flex-direction: column;
   padding: 0;
