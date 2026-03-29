@@ -106,12 +106,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // 🔹 Header logic (binary)
       if (window.scrollY > 100) {
         header.classList.add("scrolled");
+        header.classList.remove("scrolled");
       } else {
         header.classList.remove("scrolled");
       }
-    },
-    {
-      threshold: [0.25, 0.5, 0.75], // multiple thresholds = smoother switching
     }
   );
 
