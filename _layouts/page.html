@@ -107,41 +107,26 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentSection = null;
 
   const observer = new IntersectionObserver((entries) => {
-    let currentSection = null;
-const visibleSections = new Map();
+    let visible = entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    const id = entry.target.id;
+    if (!visible) return;
 
-    if (entry.isIntersecting) {
-      visibleSections.set(id, entry.intersectionRatio);
-    } else {
-      visibleSections.delete(id);
-    }
+    const id = visible.target.id;
+
+    if (currentSection === id) return;
+    currentSection = id;
+
+    sections.forEach(sec => {
+      body.classList.remove(`section-${sec.id}`);
+    });
+    body.classList.add(`section-${id}`);
   });
 
-  if (visibleSections.size === 0) return;
-
-  // Find most visible section from ALL visible ones
-  let bestId = null;
-  let bestRatio = 0;
-
-  visibleSections.forEach((ratio, id) => {
-    if (ratio > bestRatio) {
-      bestRatio = ratio;
-      bestId = id;
-    }
-  });
-
-  if (!bestId || currentSection === bestId) return;
-  currentSection = bestId;
-
-  sections.forEach(sec => {
-    body.classList.remove(`section-${sec.id}`);
-  });
-  body.classList.add(`section-${bestId}`);
+  sections.forEach(section => observer.observe(section));
 });
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
