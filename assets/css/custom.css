@@ -205,8 +205,10 @@ body.section-contact {
 
 /* Menu list */
 .nav-menu {
-  position:  sticky; /* keep within parent container (ie do not overlap footer)*/
-  top: 20px; /*final position after scroll*/
+  position: sticky;
+  top: 50vh;
+  max-height: calc(100vh - 20px);
+  overflow-y: auto;
   /*transform: translateY(50vh);*//* push it a bit away from the bottom left corner*/ 
   transition: transform 1.2s ease, gap  0.5s ease; /* timing for transitions on scroll*/
   display: flex;
