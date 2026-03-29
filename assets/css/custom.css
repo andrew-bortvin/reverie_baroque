@@ -206,6 +206,7 @@ body.section-contact {
 /* Menu list */
 .nav-menu {
   position: sticky;
+  transform: translateZ(0);
   top: 20px;
   max-height: calc(100vh - 20px);
   overflow-y: auto;
