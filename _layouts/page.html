@@ -80,41 +80,65 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // 🔹 SCROLL HANDLER (independent)
-  let isScrolled = false;
-
-  window.addEventListener("scroll", () => {
-    const shouldScroll = window.scrollY > 100;
-
-    if (shouldScroll !== isScrolled) {
-      header.classList.toggle("scrolled", shouldScroll);
-      isScrolled = shouldScroll;
-    }
-  });
-
-  // 🔹 INTERSECTION OBSERVER (only for sections)
   let currentSection = null;
 
-  const observer = new IntersectionObserver((entries) => {
-    let visible = entries
-      .filter(entry => entry.isIntersecting)
-      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+  const observer = new IntersectionObserver(
+    (entries) => {
+      // Find the most visible section
+      let visible = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-    if (!visible) return;
+      if (!visible) return;
 
-    const id = visible.target.id;
+      const id = visible.target.id;
 
-    if (currentSection === id) return;
-    currentSection = id;
+      // Avoid unnecessary DOM updates
+      if (currentSection === id) return;
+      currentSection = id;
 
-    sections.forEach(sec => {
-      body.classList.remove(`section-${sec.id}`);
-    });
-    body.classList.add(`section-${id}`);
-  });
+      // 🔹 Update body classes
+      sections.forEach(sec => {
+        body.classList.remove(`section-${sec.id}`);
+      });
+      body.classList.add(`section-${id}`);
+
+      // 🔹 Header logic (binary)
+      if (window.scrollY > 100) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+  );
 
   sections.forEach(section => observer.observe(section));
 });
+</script>
+  
+  <script> // Sliding text script
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        root: null,
+        threshold: 0.6, // How much of the element is necessary to be in screen
+        // rootMargin: "0px 0px -200px 0px" // Distnace the item nees to be in the screen to trigger 
+      }
+    );
+
+    document.querySelectorAll(".text-slide").forEach(el => {
+      observer.observe(el);
+    });
+  });
+</script>
 
   <!--Header and footer-->
 <body class="
