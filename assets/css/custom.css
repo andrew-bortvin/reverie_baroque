@@ -212,8 +212,8 @@ body.section-contact {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-right: 1rem;
-  gap: 1rem;
+  margin: 0;
+  gap: 1.4rem;
   list-style: none;
   align-items:  flex-start;
   /*margin-top: auto;  pushes to bottom */
