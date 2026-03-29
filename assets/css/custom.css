@@ -206,11 +206,11 @@ body.section-contact {
 /* Menu list */
 .nav-menu {
   position: sticky;
-  top: 50vh;
+  top: 20px;
   max-height: calc(100vh - 20px);
   overflow-y: auto;
-  /*transform: translateY(50vh);*//* push it a bit away from the bottom left corner*/ 
-  transition: top 4.0s ease, gap  0.5s ease; /* timing for transitions on scroll*/
+  transform: translateY(min(50vh, 300px)); /* cap the shift */
+  transition: transform 1.2s ease, gap 0.5s ease;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -224,7 +224,7 @@ body.section-contact {
 
 /* Scrolled nav menu*/
 .site-header.scrolled .nav-menu {
-  top: 0vh;
+  transform: translateY(0);
   gap: 0.5rem;
 }
 
