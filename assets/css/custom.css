@@ -126,7 +126,7 @@ body.section-about {
 body.section-about p { 
   color:  #000000;
 }
-body.section-about .site-header .nav-menu { 
+body.section-about .site-header .nav-menu a { 
   color:  #000000;
 }
 
@@ -138,7 +138,7 @@ body.section-members p {
   color:  #FFFAED;
 }
 
-body.section-members .site-header .nav-menu { 
+body.section-members .site-header .nav-menu a { 
   color: #FFFAED;
 }
 
