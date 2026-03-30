@@ -128,7 +128,7 @@ body::after {
 
 p {
   color: #000000;
-  transition: color 2s-ease;
+  transition: color 2s ease;
 }
 
 body {
