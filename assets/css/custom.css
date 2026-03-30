@@ -160,7 +160,7 @@ section::before {
 
 p {
   color: #000000;
-  transition: color 2s ease;
+  transition: color 1.2s ease;
 }
 
 body {
