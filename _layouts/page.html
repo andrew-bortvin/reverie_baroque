@@ -38,6 +38,7 @@
     document.addEventListener("DOMContentLoaded", function () {
 
       const body = document.body;
+      const p = document.querySelector("p")
 
       /* =========================
          NAV TOGGLE
@@ -146,9 +147,11 @@
 
           sections.forEach(sec => {
             body.classList.remove(`section-${sec.id}`);
+            p.classList.remove(`section-${sec.id}`)
           });
 
-          body.classList.add(`section-${id}`);
+          body.classList.add(`section-${id}`)
+          p.classList.add(`section-${id}`);
         };
 
         window.addEventListener("scroll", () => {
