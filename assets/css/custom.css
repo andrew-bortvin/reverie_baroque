@@ -124,8 +124,13 @@ body.section-about p {
 }
 
 body.section-members {
-  background-color: #d399ff;
+  background-color: #72a38e;
 }
+
+body.section-members p { 
+  color:  #faa7c8;
+}
+
 
 body.section-watch {
   background-color: #FFF1ED;
