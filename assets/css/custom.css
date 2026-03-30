@@ -77,9 +77,6 @@ strong, b {
   font-weight: bold;
 }
 
-.nav-menu a:active {
-  color: #f75757;
-}
 
 /* Sliding text */
 .text-slide {
@@ -111,6 +108,14 @@ html, body {
 
 html {
   scroll-behavior: smooth; /* dont just jump to sections based on nav menu clicks */
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
 }
 
 /* above grain at z 1*/
