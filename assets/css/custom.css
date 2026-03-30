@@ -117,7 +117,7 @@ body::before {
   position: fixed;
   inset: 0;
   background-image: 
-    repeating-radial-gradient(circle at 0 0, transparent 0, #000 3px);
+    repeating-radial-gradient(circle at 0 0, transparent 0, #000 2px);
   opacity: 0.8;
   pointer-events: none;
 }
