@@ -5,216 +5,185 @@
     <meta charset="UTF-8" />
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@0,400;1,400;0,600;1,600;0,700;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap" rel="stylesheet">
 
-    <!--favicon icon-->
+    <!--favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/logo_2.png' | relative_url }}">
   </head>
 
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.querySelector(".nav-toggle");
-    const menu = document.querySelector(".nav-menu");
+  <body class="
+    {% if page.url == '/' or page.url == '/index.html' %}home{% else %}not-home{% endif %}
+    {% if page.after_banner %}after-banner{% endif %}
+  ">
 
-    toggle.addEventListener("click", function () {
-      menu.classList.toggle("open");
-    });
-
-    document.querySelectorAll(".nav-menu a").forEach(link => {
-      link.addEventListener("click", () => {
-        menu.classList.remove("open");
-      });
-    });
-  });
-</script>
-
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  /* =========================
-     NAV TOGGLE
-  ========================== */
-  const toggle = document.querySelector(".nav-toggle");
-  const menu = document.querySelector(".nav-menu");
-
-  if (toggle && menu) {
-    toggle.addEventListener("click", function () {
-      menu.classList.toggle("open");
-    });
-
-    document.querySelectorAll(".nav-menu a").forEach(link => {
-      link.addEventListener("click", () => {
-        menu.classList.remove("open");
-      });
-    });
-  }
-
-
-  /* =========================
-     ICON TOGGLES
-  ========================== */
-  const toggles = document.querySelectorAll(".icon-toggle");
-
-  toggles.forEach((toggle) => {
-    toggle.addEventListener("click", function () {
-      const textId = toggle.dataset.text;
-      const currentDropdown = document.getElementById(textId);
-
-      if (!currentDropdown) return;
-
-      document.querySelectorAll(".icon-text").forEach((block) => {
-        if (block !== currentDropdown) {
-          block.classList.remove("open");
-        }
-      });
-
-      currentDropdown.classList.toggle("open");
-    });
-  });
-
-
-  /* =========================
-     HEADER SCROLL (SMOOTH + STABLE)
-     - triggers after 1 viewport height
-  ========================== */
-  const header = document.querySelector(".site-header");
-  const body = document.body;
-
-  if (header) {
-    const isHome = body.classList.contains("home");
-
-    if (!isHome) {
-      header.classList.add("scrolled");
-    } else {
-      let lastState = null;
-      let ticking = false;
-
-      const updateHeader = () => {
-        ticking = false;
-
-        const shouldScroll = window.scrollY > window.innerHeight * 0.60;
-
-        if (shouldScroll === lastState) return;
-        lastState = shouldScroll;
-
-        header.classList.toggle("scrolled", shouldScroll);
-      };
-
-      window.addEventListener("scroll", () => {
-        if (!ticking) {
-          ticking = true;
-          requestAnimationFrame(updateHeader);
-        }
-      }, { passive: true });
-
-      updateHeader();
-    }
-  }
-
-
-  /* =========================
-     SECTION OBSERVER (BODY STATES)
-  ========================== */
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const body = document.body;
-  const sections = document.querySelectorAll("section[id]");
-
-  if (!sections.length) return;
-
-  let currentSection = null;
-  let ticking = false;
-
-  const updateSection = () => {
-    ticking = false;
-
-    const viewportCenter = window.innerHeight / 2;
-
-    let closestSection = null;
-    let closestDistance = Infinity;
-
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-
-      // distance from section center to viewport center
-      const sectionCenter = rect.top + rect.height / 2;
-      const distance = Math.abs(viewportCenter - sectionCenter);
-
-      if (distance < closestDistance) {
-        closestDistance = distance;
-        closestSection = section;
-      }
-    });
-
-    if (!closestSection) return;
-
-    const id = closestSection.id;
-
-    if (id === currentSection) return;
-    currentSection = id;
-
-    sections.forEach(sec => {
-      body.classList.remove(`section-${sec.id}`);
-    });
-
-    body.classList.add(`section-${id}`);
-  };
-
-  window.addEventListener("scroll", () => {
-    if (!ticking) {
-      ticking = true;
-      requestAnimationFrame(updateSection);
-    }
-  }, { passive: true });
-
-  window.addEventListener("resize", updateSection);
-
-  // run once on load
-  updateSection();
-});
-</script>
-
-
-  /* =========================
-     SLIDE-IN TEXT ANIMATION
-  ========================== */
-  const slideObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    {
-      threshold: 0.6
-    }
-  );
-
-  document.querySelectorAll(".text-slide").forEach(el => {
-    slideObserver.observe(el);
-  });
-
-});
-</script>
-  
-  <!--Header and footer-->
-<body class="
-  {% if page.url == '/' or page.url == '/index.html' %}home{% else %}not-home{% endif %}
-  {% if page.after_banner %}after-banner{% endif %}
-">
     {% include header.html %}
+
     <main class="page-content">
       {{ content }}
     </main>
-     {% include footer.html %}
+
+    {% include footer.html %}
+
+    <!-- ✅ ALL JS HERE -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const body = document.body;
+
+      /* =========================
+         NAV TOGGLE
+      ========================== */
+      const toggle = document.querySelector(".nav-toggle");
+      const menu = document.querySelector(".nav-menu");
+
+      if (toggle && menu) {
+        toggle.addEventListener("click", () => {
+          menu.classList.toggle("open");
+        });
+
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+          link.addEventListener("click", () => {
+            menu.classList.remove("open");
+          });
+        });
+      }
+
+      /* =========================
+         ICON TOGGLES
+      ========================== */
+      document.querySelectorAll(".icon-toggle").forEach(toggle => {
+        toggle.addEventListener("click", () => {
+          const current = document.getElementById(toggle.dataset.text);
+          if (!current) return;
+
+          document.querySelectorAll(".icon-text").forEach(block => {
+            if (block !== current) block.classList.remove("open");
+          });
+
+          current.classList.toggle("open");
+        });
+      });
+
+      /* =========================
+         HEADER SCROLL
+      ========================== */
+      const header = document.querySelector(".site-header");
+
+      if (header) {
+        const isHome = body.classList.contains("home");
+
+        if (!isHome) {
+          header.classList.add("scrolled");
+        } else {
+          let lastState = null;
+          let ticking = false;
+
+          const updateHeader = () => {
+            ticking = false;
+
+            const shouldScroll = window.scrollY > window.innerHeight * 0.60;
+
+            if (shouldScroll === lastState) return;
+            lastState = shouldScroll;
+
+            header.classList.toggle("scrolled", shouldScroll);
+          };
+
+          window.addEventListener("scroll", () => {
+            if (!ticking) {
+              ticking = true;
+              requestAnimationFrame(updateHeader);
+            }
+          }, { passive: true });
+
+          updateHeader();
+        }
+      }
+
+      /* =========================
+         SECTION TRACKING (CENTER-BASED)
+      ========================== */
+      const sections = document.querySelectorAll("section[id]");
+
+      if (sections.length) {
+        let currentSection = null;
+        let ticking = false;
+
+        const updateSection = () => {
+          ticking = false;
+
+          const viewportCenter = window.innerHeight * 0.5;
+
+          let closest = null;
+          let minDistance = Infinity;
+
+          sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            const center = rect.top + rect.height / 2;
+            const distance = Math.abs(viewportCenter - center);
+
+            if (distance < minDistance) {
+              minDistance = distance;
+              closest = section;
+            }
+          });
+
+          if (!closest) return;
+
+          const id = closest.id;
+          if (id === currentSection) return;
+
+          currentSection = id;
+
+          sections.forEach(sec => {
+            body.classList.remove(`section-${sec.id}`);
+          });
+
+          body.classList.add(`section-${id}`);
+        };
+
+        window.addEventListener("scroll", () => {
+          if (!ticking) {
+            ticking = true;
+            requestAnimationFrame(updateSection);
+          }
+        }, { passive: true });
+
+        window.addEventListener("resize", updateSection);
+
+        updateSection();
+      }
+
+      /* =========================
+         SLIDE-IN TEXT
+      ========================== */
+      const slideObserver = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.6 }
+      );
+
+      document.querySelectorAll(".text-slide").forEach(el => {
+        slideObserver.observe(el);
+      });
+
+    });
+    </script>
+
   </body>
 </html>
