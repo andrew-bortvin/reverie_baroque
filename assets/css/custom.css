@@ -112,7 +112,8 @@ html {
 
 html {
   scroll-snap-type: y proximity; /*snap when y position is near a section*/
-  scroll-padding-top: 200px;
+  scroll-padding-top: 120px;
+  scroll-padding-bottom: 150px;
 }
 
 section {
