@@ -115,10 +115,10 @@ body.section-home {
 }
 
 body.section-about {
-  background-color: #79359c;
+  background-color: #b686bf;
 }
 
-p .section-about { 
+body.section-about p { 
   color:  #515e33;
 }
 
