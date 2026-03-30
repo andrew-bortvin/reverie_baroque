@@ -111,13 +111,11 @@ html {
 }
 
 html {
-  scroll-snap-type: y proximity; /*snap when y position is near a section*/
-  scroll-padding-top: 10rem;
-  scroll-padding-bottom: 10rem;
+  scroll-snap-type: y mandatory;
 }
 
 section {
-  scroll-snap-align: start center;
+  scroll-snap-align: start;
   scroll-snap-stop: normal; /*dont force snap if moving fast*/
 }
 
