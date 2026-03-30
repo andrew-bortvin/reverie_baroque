@@ -105,6 +105,16 @@ html, body {
   height: 100%;
 }
 
+/*grain layer*/
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("noise.png");
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 p {
   color: #000000;
   transition: color 2s-ease;
