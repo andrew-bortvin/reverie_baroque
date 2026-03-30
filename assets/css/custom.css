@@ -148,7 +148,8 @@ body {
 }
 
 body.section-home {
-  background-color:#8acbeb;
+  /*background-color:#8acbeb;*/
+  background-color:#fc9535;
 }
 
 body.section-about {
