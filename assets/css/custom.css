@@ -138,6 +138,10 @@ body.section-members p {
   color:  #FFFAED;
 }
 
+body.section-members h2 { 
+  color:  #7b4fbd;
+}
+
 body.section-members .site-header .nav-menu a { 
   color: #FFFAED;
 }
