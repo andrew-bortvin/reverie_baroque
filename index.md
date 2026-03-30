@@ -255,7 +255,7 @@ title: reverie baroque
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
+  <h2>contact</h2>
   <p>
   “Mad with the agonies he endures from these fresh attacks, the
   infuriated Sperm Whale rolls over and over; he rears his enormous
