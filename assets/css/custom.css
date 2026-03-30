@@ -105,14 +105,18 @@ html, body {
   height: 100%;
 }
 
+p {
+  color: #000000;
+  transition: color 2s-ease;
+}
+
 body {
   background-color: #8acbeb;
-  transition: background-color 0.7s ease;
+  transition: background-color 2s ease;
 }
 
 body.section-home {
   background-color:#8acbeb;
-  
 }
 
 body.section-about {
@@ -124,7 +128,7 @@ body.section-about p {
 }
 
 body.section-members {
-  background-color:#62a38b;
+  background-color:#3c7d65;
 }
 
 body.section-members p { 
