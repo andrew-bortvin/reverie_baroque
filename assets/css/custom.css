@@ -143,6 +143,11 @@ body::after {
   opacity: 0.2;
 }
 
+section {
+  position: relative;
+  /*background: #f4f1ea;*/
+}
+
 section::before {
   content: "";
   position: absolute;
