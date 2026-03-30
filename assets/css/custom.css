@@ -199,6 +199,14 @@ body.section-members .site-header .nav-menu a {
   color: #000000;
 }
 
+body.section-duo {
+  background-color: #eb8a9a;
+}
+
+body.section-quartet {
+  background-color: #eb8a9a;
+}
+
 body.section-watch {
   background-color: #FFF1ED;
 }
