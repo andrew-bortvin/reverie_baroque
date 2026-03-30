@@ -107,12 +107,12 @@ html, body {
 
 body {
   /*background-color: #FFFAED;*/
-  background-color: #a90636; 
+  background-color: #ff4766; 
   transition: background-color 0.3s ease;
 }
 
 body.section-home {
-  background-color: #a90636;
+  background-color: #ff4766;
 }
 
 body.section-about {
