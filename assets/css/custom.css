@@ -110,16 +110,6 @@ html {
   scroll-behavior: smooth; /* dont just jump to sections based on nav menu clicks */
 }
 
-html {
-  scroll-snap-type: y mandatory;
-  scroll-padding-top: 1rem;
-  scroll-padding-bottom: 1rem;
-}
-
-section {
-  scroll-snap-align: start center;
-  scroll-snap-stop: normal; /*dont force snap if moving fast*/
-}
 
 /* above grain at z 1*/
 main, header {
