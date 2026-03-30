@@ -106,16 +106,17 @@ html, body {
 }
 
 body {
-  background-color: #FFFAED;
+  background-color: #8acbeb;
   transition: background-color 0.7s ease;
 }
 
 body.section-home {
-  background-color: #ff4766;
+  background-color:#8acbeb;
+  
 }
 
 body.section-about {
-  background-color: #b6ebfc;
+  background-color: #FFFAED;
 }
 
 body.section-about p { 
