@@ -120,15 +120,6 @@ body::after {
   mix-blend-mode: overlay;
 }
 
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.05;
-  mix-blend-mode: overlay;
-}
-
 p {
   color: #000000;
   transition: color 2s-ease;
