@@ -163,15 +163,15 @@ body.section-about .site-header .nav-menu a {
 }
 
 body.section-members {
-  background-color:#3c7d65;
+  background-color:#FFFAED;
 }
 
 body.section-members p { 
-  color:  #FFFAED;
+  color:  #000000;
 }
 
 body.section-members h2 { 
-  color:  #7b4fbd;
+  color:  #000000;
 }
 
 body.section-members .site-header .nav-menu a { 
