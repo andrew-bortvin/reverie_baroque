@@ -106,20 +106,21 @@ html, body {
 }
 
 body {
-  background-color: #FFFAED; 
+  /*background-color: #FFFAED;*/
+  background-color: #a90636; 
   transition: background-color 0.3s ease;
 }
 
 body.section-home {
-  background-color: #FFFAED;
+  background-color: #a90636;
 }
 
 body.section-about {
-  background-color: #EDF2FF;
+  background-color: #4f8fe6;
 }
 
 body.section-members {
-  background-color: #F1EDFF;
+  background-color: #9c52d4;
 }
 
 body.section-watch {
