@@ -108,7 +108,7 @@ html, body {
 body {
   /*background-color: #FFFAED;*/
   background-color: #ff4766; 
-  transition: background-color 0.3s ease;
+  transition: background-color 0.7s ease;
 }
 
 body.section-home {
