@@ -106,8 +106,7 @@ html, body {
 }
 
 body {
-  /*background-color: #FFFAED;*/
-  background-color: #ff4766; 
+  background-color: #FFFAED;
   transition: background-color 0.7s ease;
 }
 
@@ -116,7 +115,11 @@ body.section-home {
 }
 
 body.section-about {
-  background-color: #90befc;
+  background-color: #79359c;
+}
+
+p .section-about { 
+  color:  #515e33;
 }
 
 body.section-members {
