@@ -76,6 +76,76 @@ title: reverie baroque
   </p>
 </section>
 
+<section id="duo">
+  <h2>duo aragosta</h2>
+
+  <p>
+  “Nantucket itself,” said Mr. Webster, “is a very striking and
+  peculiar portion of the National interest. There is a population of
+  eight or nine thousand persons living here in the sea, adding largely
+  every year to the National wealth by the boldest and most persevering
+  industry.” —_Report of Daniel Webster’s Speech in the U. S. Senate,
+  on the application for the Erection of a Breakwater at Nantucket_.
+  1828.
+  </p>
+
+  <p>
+  “The whale fell directly over him, and probably killed him in a
+  moment.” —“_The Whale and his Captors, or The Whaleman’s Adventures
+  and the Whale’s Biography, gathered on the Homeward Cruise of the
+  Commodore Preble_.” _By Rev. Henry T. Cheever_.
+  </p>
+
+  <p>
+  “If you make the least damn bit of noise,” replied Samuel, “I will
+  send you to hell.” —_Life of Samuel Comstock_ (_the mutineer_), _by
+  his brother, William Comstock. Another Version of the whale-ship
+  Globe narrative_.
+  </p>
+
+  <p>
+  “The voyages of the Dutch and English to the Northern Ocean, in
+  order, if possible, to discover a passage through it to India, though
+  they failed of their main object, laid-open the haunts of the whale.”
+  —_McCulloch’s Commercial Dictionary_.
+  </p>
+</section>
+
+<section id="quartet">
+  <h2>quartet euterpe</h2>
+
+  <p>
+  “Nantucket itself,” said Mr. Webster, “is a very striking and
+  peculiar portion of the National interest. There is a population of
+  eight or nine thousand persons living here in the sea, adding largely
+  every year to the National wealth by the boldest and most persevering
+  industry.” —_Report of Daniel Webster’s Speech in the U. S. Senate,
+  on the application for the Erection of a Breakwater at Nantucket_.
+  1828.
+  </p>
+
+  <p>
+  “The whale fell directly over him, and probably killed him in a
+  moment.” —“_The Whale and his Captors, or The Whaleman’s Adventures
+  and the Whale’s Biography, gathered on the Homeward Cruise of the
+  Commodore Preble_.” _By Rev. Henry T. Cheever_.
+  </p>
+
+  <p>
+  “If you make the least damn bit of noise,” replied Samuel, “I will
+  send you to hell.” —_Life of Samuel Comstock_ (_the mutineer_), _by
+  his brother, William Comstock. Another Version of the whale-ship
+  Globe narrative_.
+  </p>
+
+  <p>
+  “The voyages of the Dutch and English to the Northern Ocean, in
+  order, if possible, to discover a passage through it to India, though
+  they failed of their main object, laid-open the haunts of the whale.”
+  —_McCulloch’s Commercial Dictionary_.
+  </p>
+</section>
+
 <section id="schedule">
   <h2>Schedule</h2>
 
@@ -112,7 +182,7 @@ title: reverie baroque
 </section>
 
 <section id="watch">
-  <h2>Watch and Listen</h2>
+  <h2>Watch & Listen</h2>
   <p>
   October 13.  “There she blows,” was sung out from the mast-head.
   “Where away?” demanded the captain. “Three points off the lee bow,
