@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const updateHeader = () => {
         ticking = false;
 
-        const shouldScroll = window.scrollY > window.innerHeight * 0.80;
+        const shouldScroll = window.scrollY > window.innerHeight * 0.60;
 
         if (shouldScroll === lastState) return;
         lastState = shouldScroll;
