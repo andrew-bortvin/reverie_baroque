@@ -10,7 +10,7 @@ title: reverie baroque
 </section>
 
 <section id="about">
-  <h2>About us</h2>
+  <h2>about us</h2>
   
   <p>
   “My God! Mr. Chace, what is the matter?” I answered, “we have been
@@ -40,11 +40,54 @@ title: reverie baroque
   miles.” —_Scoresby_.
 </p>
 
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
+<p>
+  “Sometimes the whale shakes its tremendous tail in the air, which,
+  cracking like a whip, resounds to the distance of three or four
+  miles.” —_Scoresby_.
+</p>
+
 
 </section>
 
 <section id="members">
-  <h2>Members</h2>
+  <h2>members</h2>
   <p>
   “These things are reciprocal; the ball rebounds, only to bound
   forward again; for now in laying open the haunts of the whale, the
@@ -147,7 +190,7 @@ title: reverie baroque
 </section>
 
 <section id="schedule">
-  <h2>Schedule</h2>
+  <h2>schedule</h2>
 
   <p>
   “Nantucket itself,” said Mr. Webster, “is a very striking and
@@ -182,7 +225,7 @@ title: reverie baroque
 </section>
 
 <section id="watch">
-  <h2>Watch & Listen</h2>
+  <h2>watch & listen</h2>
   <p>
   October 13.  “There she blows,” was sung out from the mast-head.
   “Where away?” demanded the captain. “Three points off the lee bow,
