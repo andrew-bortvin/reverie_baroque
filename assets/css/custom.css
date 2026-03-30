@@ -123,7 +123,10 @@ body.section-about {
   background-color: #FFFAED;
 }
 
-body.section-about p nav-menu { 
+body.section-about p { 
+  color:  #000000;
+}
+body.section-about .site-header .nav-menu { 
   color:  #000000;
 }
 
@@ -131,8 +134,12 @@ body.section-members {
   background-color:#3c7d65;
 }
 
-body.section-members p nav-menu { 
+body.section-members p { 
   color:  #FFFAED;
+}
+
+body.section-members .site-header .nav-menu { 
+  color: #FFFAED;
 }
 
 body.section-watch {
