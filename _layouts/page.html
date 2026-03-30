@@ -122,37 +122,64 @@ document.addEventListener("DOMContentLoaded", function () {
   /* =========================
      SECTION OBSERVER (BODY STATES)
   ========================== */
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const body = document.body;
   const sections = document.querySelectorAll("section[id]");
 
-  if (sections.length) {
-    let currentSection = null;
+  if (!sections.length) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter(e => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+  let currentSection = null;
+  let ticking = false;
 
-        if (!visible) return;
+  const updateSection = () => {
+    ticking = false;
 
-        const id = visible.target.id;
+    const viewportCenter = window.innerHeight / 2;
 
-        if (id === currentSection) return;
-        currentSection = id;
+    let closestSection = null;
+    let closestDistance = Infinity;
 
-        sections.forEach(sec => {
-          body.classList.remove(`section-${sec.id}`);
-        });
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
 
-        body.classList.add(`section-${id}`);
-      },
-      {
-        threshold: Array.from({ length: 10 }, (_, i) => i / 10)
+      // distance from section center to viewport center
+      const sectionCenter = rect.top + rect.height / 2;
+      const distance = Math.abs(viewportCenter - sectionCenter);
+
+      if (distance < closestDistance) {
+        closestDistance = distance;
+        closestSection = section;
       }
-    );
+    });
 
-    sections.forEach(section => observer.observe(section));
-  }
+    if (!closestSection) return;
+
+    const id = closestSection.id;
+
+    if (id === currentSection) return;
+    currentSection = id;
+
+    sections.forEach(sec => {
+      body.classList.remove(`section-${sec.id}`);
+    });
+
+    body.classList.add(`section-${id}`);
+  };
+
+  window.addEventListener("scroll", () => {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(updateSection);
+    }
+  }, { passive: true });
+
+  window.addEventListener("resize", updateSection);
+
+  // run once on load
+  updateSection();
+});
+</script>
 
 
   /* =========================
