@@ -105,6 +105,12 @@ html, body {
   height: 100%;
 }
 
+/* above grain at z 1*/
+main, header {
+  position: relative;
+  z-index: 2;
+}
+
 /*grain layer*/
 body::after {
   content: "";
@@ -114,10 +120,10 @@ body::after {
   z-index: 9999;
 
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.25'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.3'/%3E%3C/svg%3E");
 
-  opacity: 0.9;
-  mix-blend-mode: overlay;
+  opacity: 0.08;
+  mix-blend-mode: soft-light;
 }
 
 p {
