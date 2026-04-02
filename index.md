@@ -207,7 +207,7 @@ title: reverie baroque
           <span class="Date">May 17</span> <br>
           <span class="Year">2026</span></td>
       <td>
-          <span class="schedule-Event">Spring in Versailles<br>
+          a
       </td>
       <td>
             Green Church<br>Baltimore, MD
