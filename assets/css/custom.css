@@ -501,6 +501,13 @@ body.section-contact {
    SCHEDULE TABLE
 ========================= */
 
+.schedule-table tr,
+.schedule-table tbody tr,
+.schedule-table tbody tr:nth-child(even),
+.schedule-table tbody tr:nth-child(odd) {
+  background: transparent !important;
+}
+
 .schedule-table {
   margin-left: 12rem;
   margin-right: 1rem;   
