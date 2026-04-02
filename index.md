@@ -223,10 +223,14 @@ title: reverie baroque
     <tr>
       <td>
         <div>
-          <span class="Date">Feb. 13 2026</span>
+          <span class="Date">Feb. 13</span><br>
+            <span class = "Year">2026</span>
         </div>
      </td>
-      <td>Rush Hour Performance: A Baroque Valentine's Day</td>
+      <td>
+        <span class="Event">A Baroque Valentine's Day</span><br>
+        <span class="Event-subtitle">Rush Hour Performance</span>
+      </td>
       <td>Juilliard Station <br>130 W. 66th St., New York, NY 10023</td>
     </tr>
   </tbody>

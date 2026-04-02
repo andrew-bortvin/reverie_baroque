@@ -539,6 +539,13 @@ body.section-contact {
   color: #000000;
 }
 
+.Event-subtitle {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #000000;
+}
+
 .Location {
   font-family: 'Bricolage Grotesque', sans-serif;
   font-size:  1rem;
