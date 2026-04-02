@@ -11,79 +11,9 @@ title: reverie baroque
 
 <section id="about">
   <h2>about us</h2>
-  
   <p>
-  “My God! Mr. Chace, what is the matter?” I answered, “we have been
-  stove by a whale.” —“_Narrative of the Shipwreck of the Whale Ship
-  Essex of Nantucket, which was attacked and finally destroyed by a
-  large Sperm Whale in the Pacific Ocean_.” _By Owen Chace of
-  Nantucket, first mate of said vessel. New York_, 1821.
- </p>
-
-<p>
-  “A mariner sat in the shrouds one night, The wind was piping free;
-  Now bright, now dimmed, was the moonlight pale, And the phospher
-  gleamed in the wake of the whale, As it floundered in the sea.”
-  —_Elizabeth Oakes Smith_.
-</p>
-
-
-<p>
-  “The quantity of line withdrawn from the boats engaged in the capture
-  of this one whale, amounted altogether to 10,440 yards or nearly six
-  English miles....
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-<p>
-  “Sometimes the whale shakes its tremendous tail in the air, which,
-  cracking like a whip, resounds to the distance of three or four
-  miles.” —_Scoresby_.
-</p>
-
-
+    It was a queer sort of place—a gable-ended old house, one side palsied as it were, and leaning over sadly. It stood on a sharp bleak corner, where that tempestuous wind Euroclydon kept up a worse howling than ever it did about poor Paul’s tossed craft. Euroclydon, nevertheless, is a mighty pleasant zephyr to any one in-doors, with his feet on the hob quietly toasting for bed. “In judging of that tempestuous wind called Euroclydon,” says an old writer—of whose works I possess the only copy extant—“it maketh a marvellous difference, whether thou lookest out at it from a glass window where the frost is all on the outside, or whether thou observest it from that sashless window, where the frost is on both sides, and of which the wight Death is the only glazier.” True enough, thought I, as this passage occurred to my mind—old black-letter, thou reasonest well. Yes, these eyes are windows, and this body of mine is the house. What a pity they didn’t stop up the chinks and the crannies though, and thrust in a little lint here and there. But it’s too late to make any improvements now. The universe is finished; the copestone is on, and the chips were carted off a million years ago. Poor Lazarus there, chattering his teeth against the curbstone for his pillow, and shaking off his tatters with his shiverings, he might plug up both ears with rags, and put a corn-cob into his mouth, and yet that would not keep out the tempestuous Euroclydon. Euroclydon! says old Dives, in his red silken wrapper—(he had a redder one afterwards) pooh, pooh! What a fine frosty night; how Orion glitters; what northern lights! Let them talk of their oriental summer climes of everlasting conservatories; give me the privilege of making my own summer with my own coals.
+  </p>
 </section>
 
 <section id="members">
