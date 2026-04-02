@@ -498,6 +498,16 @@ body.section-contact {
 }
 
 /* =========================
+   SCHEDULE TABLE
+========================= */
+
+.schedule-table thead {
+  display: none; /*hide header*/
+}
+
+
+
+/* =========================
    MOBILE
 ========================= */
 
