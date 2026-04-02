@@ -239,6 +239,41 @@ title: reverie baroque
         <span class="Location">, NY 10023</span>
       </td>
     </tr>
+     <tr>
+      <td>
+        <div>
+          <span class="Date">Oct. 31</span><br>
+            <span class = "Year">2025</span>
+        </div>
+     </td>
+      <td>
+        <span class="Event">Spooky Baroque Soirée</span><br>
+        <span class="Event-subtitle">Rush Hour Performance</span>
+      </td>
+      <td>
+        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
+        <span class="Location-city"> New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>
+          <span class="Date">July 23</span><br>
+            <span class = "Year">2025</span>
+        </div>
+     </td>
+      <td>
+        <span class="Event">Duo Arogosta and Friends: </span><br>
+        <span class="Event">A Baroque Tasting Menu </span><br>
+        <span class="Event-subtitle">Rush Hour Performance</span>
+      </td>
+      <td>
+        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
+        <span class="Location-city"> New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
+    </tr>
   </tbody>
 </table>
 </section>
