@@ -506,6 +506,8 @@ body.section-contact {
   margin-right: 1rem;   
   width: calc(100% - 13rem);
   table-layout: fixed;
+  background: transparent;
+  border-collapse: collapse;
 }
 
 .schedule-table thead {
