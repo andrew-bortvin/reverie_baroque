@@ -501,8 +501,26 @@ body.section-contact {
    SCHEDULE TABLE
 ========================= */
 
+.schedule-table {
+  margin-left: 12rem;
+}
+
 .schedule-table thead {
   display: none; /*hide header*/
+}
+
+.Date {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.Year {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 0.5rem;
+  font-weight: 200;
+  color: #000000;
 }
 
 
