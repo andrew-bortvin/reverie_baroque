@@ -520,6 +520,13 @@ body.section-contact {
 
 .schedule-table thead {
   display: none; /*hide header*/
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.schedule-table tr {
+  border: none !important;
 }
 
 .schedule-table td {
