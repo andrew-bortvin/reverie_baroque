@@ -190,7 +190,7 @@ title: reverie baroque
 </section>
 
 <section id="schedule">
-  <h2>schedule</h2>
+  <h3>schedule</h3>
 
   <p>
   “Nantucket itself,” said Mr. Webster, “is a very striking and
