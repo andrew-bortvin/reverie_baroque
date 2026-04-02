@@ -511,7 +511,11 @@ body.section-contact {
 
 .custom-table td {
   vertical-align: top;
-  line-height: 1.4;
+  line-height: 0.9;
+}
+
+.cell-content {
+  display: block;
 }
 
 .Date {
