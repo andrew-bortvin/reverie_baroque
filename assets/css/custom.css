@@ -537,7 +537,7 @@ body.section-contact {
 
 .schedule-table td {
   vertical-align: top;
-  line-height: 0.9;
+  line-height: 1.0;
   background: transparent !important;
   box-shadow: none !important;
   border-bottom: 2px solid #000000;
