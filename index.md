@@ -206,8 +206,9 @@ title: reverie baroque
       <td>
         <div>
           <span class="Date">May 17</span> <br>
-          <span class="Year">2026</span></td>
+          <span class="Year">2026</span>
         </div>
+      </td>
       <td>
         <div>
           <span class="Event">Spring in Versailles</span>
@@ -216,7 +217,7 @@ title: reverie baroque
       <td>
         <div>
             Green Church<br>Baltimore, MD
-          </div>
+        </div>
       </td>
     </tr>
     <tr>
