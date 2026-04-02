@@ -525,10 +525,14 @@ body.section-contact {
   box-shadow: none !important;
 }
 
-.schedule-table,
+.schedule-table {
+  border: none;
+  box-shadow: none;
+}
+
 .schedule-table * {
-  border: none !important;
-  box-shadow: none !important;
+  box-shadow: none;
+  border: none;
 }
 
 .schedule-table td {
