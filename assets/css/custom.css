@@ -515,6 +515,7 @@ body.section-contact {
   table-layout: fixed;
   background: transparent;
   border-collapse: collapse;
+  border: none;
 }
 
 .schedule-table thead {
@@ -526,7 +527,7 @@ body.section-contact {
   line-height: 0.9;
   background: transparent !important;
   box-shadow: none !important;
-  border-bottom: 4px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 .cell-content {
