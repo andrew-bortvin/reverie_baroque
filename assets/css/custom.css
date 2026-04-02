@@ -200,19 +200,19 @@ body.section-members .site-header .nav-menu a {
 }
 
 body.section-duo {
-  background-color: #FCD4D4;
+  background-color: #FFFAED;
 }
 
 body.section-quartet {
-  background-color: #FCD4D4;
+  background-color: #FFFAED;
 }
 
 body.section-schedule {
-  background-color: #FFF1ED;
+  background-color: #FFFAED;
 }
 
 body.section-watch {
-  background-color: #FFF1ED;
+  background-color: #FFFAED;
 }
 
 body.section-contact {
@@ -341,8 +341,8 @@ body.section-contact {
 }
 
 .nav-menu a:hover {
-  color: #000000;
-  /*color: #4682B4;*/
+  /*color: #000000;*/
+  color: #4682B4;
 }
 
 
