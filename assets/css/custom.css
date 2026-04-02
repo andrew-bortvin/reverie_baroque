@@ -508,6 +508,7 @@ body.section-contact {
   table-layout: fixed;
   background: transparent;
   border-collapse: collapse;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .schedule-table thead {
