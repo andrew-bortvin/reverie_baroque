@@ -539,6 +539,12 @@ body.section-contact {
   color: #000000;
 }
 
+.Location {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size:  1.3rem;
+  font-weight: 400;
+  color: #000000;
+}
 
 /* =========================
    MOBILE
