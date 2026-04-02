@@ -517,7 +517,8 @@ body.section-contact {
 .schedule-table td {
   vertical-align: top;
   line-height: 0.9;
-  background:  transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
   border:  none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
