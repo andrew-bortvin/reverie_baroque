@@ -553,6 +553,13 @@ body.section-contact {
   color: #000000;
 }
 
+.Location-city{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size:  1rem;
+  font-weight: 600;
+  color: #000000;
+}
+
 /* =========================
    MOBILE
 ========================= */
