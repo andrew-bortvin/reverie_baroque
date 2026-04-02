@@ -525,8 +525,10 @@ body.section-contact {
   box-shadow: none !important;
 }
 
-.schedule-table tr {
+.schedule-table,
+.schedule-table * {
   border: none !important;
+  box-shadow: none !important;
 }
 
 .schedule-table td {
@@ -535,6 +537,10 @@ body.section-contact {
   background: transparent !important;
   box-shadow: none !important;
   border-bottom: 2px solid #000000;
+}
+
+.schedule-table tr:last-child td {
+  border-bottom: none;
 }
 
 .cell-content {
