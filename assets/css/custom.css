@@ -509,7 +509,7 @@ body.section-contact {
   display: none; /*hide header*/
 }
 
-.custom-table td {
+.schedule-table td {
   vertical-align: top;
   line-height: 0.9;
 }
