@@ -503,6 +503,9 @@ body.section-contact {
 
 .schedule-table {
   margin-left: 12rem;
+  margin-right: 1rem;   
+  width: calc(100% - 13rem);
+  table-layout: fixed;
 }
 
 .schedule-table thead {
