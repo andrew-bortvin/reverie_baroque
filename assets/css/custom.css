@@ -540,7 +540,7 @@ body.section-contact {
   line-height: 1.0;
   background: transparent !important;
   box-shadow: none !important;
-  border-bottom: 2px solid #2E2E2E;
+  border-bottom: 2px solid #828282; /*#454545;*/
 }
 
 .schedule-table tr:last-child td {
