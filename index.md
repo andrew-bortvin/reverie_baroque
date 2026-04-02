@@ -233,7 +233,11 @@ title: reverie baroque
         <span class="Event">A Baroque Valentine's Day</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
-      <td>Juilliard Station <br>130 W. 66th St., New York, NY 10023</td>
+      <td>
+        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
+        <span class="Location-city"> New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
     </tr>
   </tbody>
 </table>
