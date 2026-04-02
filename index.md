@@ -204,7 +204,7 @@ title: reverie baroque
   <tbody>
     <tr>
       <td>
-          <span class="Date">May 17</span> 
+          <span class="Date">May 17</span> <br>
           <span class="Year">2026</span></td>
       <td>
           Spring in Versailles
@@ -220,12 +220,6 @@ title: reverie baroque
     </tr>
   </tbody>
 </table>
-
-  J station valentines day 
-
-  J station Halloween
-
-  J station duo aro and friends 
 </section>
 
 <section id="watch">
