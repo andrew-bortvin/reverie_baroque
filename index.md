@@ -216,7 +216,7 @@ title: reverie baroque
       </td>
       <td>
         <div>
-            <span class="Location">Green Church<span><br>
+            <span class="Location">Green Church</span><br>
             <span class="Location-city">Baltimore</span>
             <span class="Location">, MD</span>
         </div>
