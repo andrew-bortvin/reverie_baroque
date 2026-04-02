@@ -203,9 +203,15 @@ title: reverie baroque
   </thead>
   <tbody>
     <tr>
-      <td>May 17 2026</td>
-      <td>Spring in Versailles</td>
-      <td>Green Church<br>Baltimore, MD</td>
+      <td>
+          <span class="Date">May 17</span> 
+          <span class="Year">2026</span></td>
+      <td>
+          Spring in Versailles
+      </td>
+      <td>
+            Green Church<br>Baltimore, MD
+      </td>
     </tr>
     <tr>
       <td>Feb. 13 2026</td>
