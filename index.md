@@ -221,7 +221,11 @@ title: reverie baroque
       </td>
     </tr>
     <tr>
-      <td>Feb. 13 2026</td>
+      <td>
+        <div>
+          <span class="Date">Feb. 13 2026</span>
+        </div>
+     </td>
       <td>Rush Hour Performance: A Baroque Valentine's Day</td>
       <td>Juilliard Station <br>130 W. 66th St., New York, NY 10023</td>
     </tr>
