@@ -656,7 +656,7 @@ body.section-contact {
     box-shadow: none !important;
   }
 
-  .nave-menu.open{
+  .nav-menu.open{
     display: flex;
     background: white !important;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1)
@@ -705,15 +705,11 @@ body.section-contact {
     max-height: none;
     overflow: visible;
 
-    background: transparent !important;
+    background: transparent;
     padding: 1rem;
     gap: 0.5rem;
 
     width: fit-content;
-  }
-
-  .nav-menu.open {
-    display: flex;
   }
 
   h2,
