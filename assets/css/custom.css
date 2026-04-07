@@ -640,11 +640,9 @@ body.section-contact {
 */
 
 .quartet-picture {
-  margin-left: 12rem;
-  margin-right:  2rem;
-  justify-content: center;
-  max-width: calc(100vh - 14 rem);
-
+  display: block;
+  max-width: calc(100vw - 14rem);
+  margin: 0 auto;
 }
 
 /*VIDEO*/
