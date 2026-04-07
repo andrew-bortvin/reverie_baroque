@@ -641,9 +641,8 @@ body.section-contact {
 
 @media (max-width: 768px) {
 
-  /* Turn sidebar into top header */
   .site-header {
-    position: relative !important;
+    position: relative;
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -678,7 +677,7 @@ body.section-contact {
   /* Dropdown menu */
   .nav-menu {
     display: none;
-    position: static;        
+    position: absolute;        
     transform: none !important;
     max-height: none;
     overflow: visible;
@@ -688,7 +687,7 @@ body.section-contact {
     padding: 1rem;
     gap: 0.5rem;
 
-    width: 100%;
+    width: auto;
   }
 
   .nav-menu.open {
