@@ -683,10 +683,11 @@ body.section-contact {
     max-height: none;
     overflow: visible;
 
+    background: none;
+    padding: 0;
+    gap: 0.5rem;
+
     width: 100%;
-    background-color: white;
-    padding: 1rem 0;
-    gap: 1rem;
   }
 
   .nav-menu.open {
