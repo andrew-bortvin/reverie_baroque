@@ -115,7 +115,7 @@ title: reverie baroque
 </section>
 
 <section id="schedule">
-  <h3>schedule</h3>
+  <h2>schedule</h2>
 
   <table class="schedule-table">
   <thead>
