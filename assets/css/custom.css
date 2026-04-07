@@ -649,6 +649,7 @@ body.section-contact {
   .site-header .wrapper,
   .site-nav,
   .nav-menu {
+    margin-top: 3rem;
     background: transparent !important;
     background-color: transparent !important;
     box-shadow: none !important;
@@ -712,6 +713,15 @@ body.section-contact {
   .nav-menu.open {
     display: flex;
   }
+
+  h2,
+  h3,
+  p,
+  .icon-grid,
+  .scheduel-table {
+    margin-left: 1rem;
+  }
+
 }
 
 @media (max-width: 400px) {
