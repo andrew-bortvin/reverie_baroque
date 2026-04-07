@@ -680,6 +680,7 @@ body.section-contact {
   .nav-toggle {
     display: block;
     margin-top: 0.5rem;
+    appearance: none !important;
   }
 
   /* Reset nav container */
@@ -695,7 +696,7 @@ body.section-contact {
     max-height: none;
     overflow: visible;
 
-    background: transaprent !important;
+    background: transparent !important;
     padding: 1rem;
     gap: 0.5rem;
 
