@@ -129,98 +129,83 @@ title: reverie baroque
   <tbody>
     <tr>
       <td>
-        <div>
-          <span class="Date">April 17</span> <br>
-          <span class="Year">2027</span>
-        </div>
+        <span class="Date">April 17</span><br>
+        <span class="Year">2027</span>
       </td>
       <td>
-        <div>
-          <span class="Event">The Affects</span><br>
-          <span class="Event-subtitle">The Block by West Michigan Symphony</span>
-        </div>
+        <span class="Event">The Affects</span><br>
+        <span class="Event-subtitle">The Block by West Michigan Symphony</span>
       </td>
       <td>
-        <div>
-            <span class="Location">Russell Block Building<br>360 W Western Ave Suite 200</span>
-          <span class="Location-city"> Muskegon</span>
-          <span class="Location">, MI 49440</span>
-        </div>
+        <span class="Location">Russell Block Building<br>360 W Western Ave Suite 200</span><br>
+        <span class="Location-city">Muskegon</span><span class="Location">, MI 49440</span>
       </td>
-    </tr>
-    <tr>
-    <tr>
-      <td>
-        <div>
-          <span class="Date">May 17</span> <br>
-          <span class="Year">2026</span>
-        </div>
-      </td>
-      <td>
-        <div>
-          <span class="Event">Spring in Versailles</span>
-        </div>
-      </td>
-      <td>
-        <div>
-            <span class="Location">Mount Vernon Place United Methodist Church</span><br>
-             <span class="Location">10 E Mt Vernon Place,</span>
-            <span class="Location-city">Baltimore</span>
-            <span class="Location">, MD 21202</span>
-        </div>
-      </td>
+      <td></td>
     </tr>
     <tr>
       <td>
-        <div>
-          <span class="Date">Feb. 13</span><br>
-            <span class = "Year">2026</span>
-        </div>
-     </td>
+        <span class="Date">May 17</span><br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">Spring in Versailles</span>
+      </td>
+      <td>
+        <span class="Location">Mount Vernon Place United Methodist Church</span><br>
+        <span class="Location">10 E Mt Vernon Place,</span>
+        <span class="Location-city">Baltimore</span>
+        <span class="Location">, MD 21202</span>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <span class="Date">Feb. 13</span><br>
+        <span class="Year">2026</span>
+      </td>
       <td>
         <span class="Event">A Baroque Valentine's Day</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
-        <span class="Location-city"> New York</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
+      <td></td>
     </tr>
-     <tr>
+    <tr>
       <td>
-        <div>
-          <span class="Date">Oct. 31</span><br>
-            <span class = "Year">2025</span>
-        </div>
-     </td>
+        <span class="Date">Oct. 31</span><br>
+        <span class="Year">2025</span>
+      </td>
       <td>
         <span class="Event">Spooky Baroque Soirée</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
-        <span class="Location-city"> New York</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
+      <td></td>
     </tr>
     <tr>
       <td>
-        <div>
-          <span class="Date">July 23</span><br>
-            <span class = "Year">2025</span>
-        </div>
-     </td>
+        <span class="Date">July 23</span><br>
+        <span class="Year">2025</span>
+      </td>
       <td>
-        <span class="Event">Duo Arogosta and Friends: </span><br>
-        <span class="Event">A Baroque Tasting Menu </span><br>
+        <span class="Event">Duo Arogosta and Friends:</span><br>
+        <span class="Event">A Baroque Tasting Menu</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station <br>130 W. 66th St.,</span>
-        <span class="Location-city"> New York</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
+      <td></td>
     </tr>
   </tbody>
 </table>
