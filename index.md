@@ -57,7 +57,7 @@ title: reverie baroque
   <h2>duo aragosta</h2>
 
   <p>
-    Created by the continuo team and founders of reverie baroque, duo aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. We enjoy collaborating with a range of programs and soloists!
+    Created by the continuo team and founders of reverie baroque, duo aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. From in-depth concentration, such as a program of only French viol repertoire, to an all-encompassing “tasting menu” of the styles and affects of the early music world, Duo Aragosta can play it all. We enjoy collaborating with a range of programs and soloists! 
   </p>
 </section>
 
