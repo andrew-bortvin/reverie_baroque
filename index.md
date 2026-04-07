@@ -118,6 +118,8 @@ title: reverie baroque
 
   <img src="{{ site.baseurl }}/assets/img/quartet.jpeg" alt="quartet" class="quartet-picture">
 
+  <div style="height: 2rem;"></div>
+
   <p>
         Quartet Euterpe is driven by a similar mission of scholarly rigor and technical mastery, but explores the classical and early romantic periods with historical equipment. The ensemble is comprised of a quintet of players, rotating based on each program. The Quartet has been selected as the Carmel Bach Festival Baroque and Classical Academy quartet-in-residence for the summer of 2026. Upcoming projects include an exploration of Bologne and Haydn, early Romantic women composers, as well as quintessential quintet repertoire.   
   </p>
