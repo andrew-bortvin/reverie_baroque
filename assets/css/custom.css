@@ -641,8 +641,9 @@ body.section-contact {
 
 .quartet-picture {
   display: block;
-  max-width: calc(100vw - 14rem);
-  margin-left: 12rem;
+  max-width: 90vw;
+  height: auto;
+  margin: 0 auto;
 }
 
 /*VIDEO*/
