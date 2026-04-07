@@ -30,6 +30,11 @@ title: reverie baroque
         <img src="{{ site.baseurl }}/assets/img/headshots/sahana.png" alt="Icon 3" />
       </button>
     </div>
+    <div class="icon-item">
+      <button class="icon-toggle" data-text="ian">
+        <img src="{{ site.baseurl }}/assets/img/headshots/ian.png" alt="Icon 3" />
+      </button>
+    </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
       <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
@@ -53,6 +58,17 @@ title: reverie baroque
 <div id="sahana" class="icon-text" style="display:none;">
   <p>
     For violinist Sahana Shravan, chamber music and teaching give meaning to a life in music. From Palm Beach County, Florida to her home in New York City today, her career has evolved into an exploration of how art can serve and create open, compassionate, and accepting communities of artists and audiences.  Her collaborators range from Western classical musicians to period performers to Carnatic and Hindustani singers, composers, and dancers. She was named the 2025 Van Lier Artist of Exceptional Merit, receiving prizes including the Joseph W. Polisi Prize for Artist as Citizen, Joan D. Warren Prize for Student Leadership and Civic Engagement, and the 2025 Benzaquen Career Grant. She has performed at the European American Musical Alliance, Yellowbarn Young Artists Program, and Madeline Island String Quartet Fellowship Program. Sahana received two degrees from The Juilliard School, where she studied with Areta Zhulla and Catherine Cho and was the recipient of a Kovner Fellowship for her graduate studies.
+  </p>
+</div>
+<div id="ian" class="icon-text" style="display:none;">
+  <p>
+    New York-based classical and baroque violinist Ian Jones has traveled throughout the world, performing a range of repertoire from medieval to contemporary works. Ian’s passion for historical performance practice has brought him to perform with the world’s leading figures in early music, including Rachel Podger, William Christie, Masaaki Suzuki, John Butt, Shunske Sato, Lionel Meunier, among others.
+  </p>
+  <p>
+    In 2022, Ian became an artist apprentice with the Baroque Chamber Orchestra of Colorado for two seasons. Additionally, Ian was chosen as a 2023 Corelli Fellow with ARTEK Early Music. Most recently, he was selected as a 2025 fellow with the English Concert in America. Previous and future performance engagements include concerts with ensembles such as the Baroque Chamber Orchestra of Colorado, ARTEK Early Music, Bach Vespers NYC, New York Baroque Incorporated, Teatro Nuovo, Juilliard415, Tafelmusik, Les Arts Florissants, MAFestival Bruges, as well as the American Bach Soloists and Berwick Academy orchestras. As a member of Juilliard415, Ian has concertmastered for Handel’s oratorio Jephtha, under the direction of Nicholas McGegan, and concerto soloed under Alfredo Bernardini.
+  </p>
+  <p>
+    Ian holds a bachelor’s degree in music performance from The University of Georgia, as well as a master’s degree from The University of Denver, where he served as his studio’s graduate teaching assistant. Ian is currently pursuing a master’s degree in baroque violin at the Juilliard School’s Historical Performance program. Beyond music, Ian enjoys visiting art museums, cooking, and hanging out with his black cat Lilith.
   </p>
 </div>
 <div id="julie" class="icon-text" style="display:none;">
