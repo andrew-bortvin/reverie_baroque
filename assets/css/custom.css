@@ -674,14 +674,9 @@ body.section-contact {
     width: auto;  
   }
 
-  /* Logo stays on top */
   .site-title {
-    width: 100%;
-  }
-
-  .site-title img {
-    height: 60px;
-  }
+    display: none;
+   }
 
   /* Show hamburger UNDER logo */
   .nav-toggle {
@@ -718,8 +713,8 @@ body.section-contact {
   h3,
   p,
   .icon-grid,
-  .scheduel-table {
-    margin-left: 1rem;
+  .schedule-table {
+    margin-left: 2rem;
   }
 
 }
