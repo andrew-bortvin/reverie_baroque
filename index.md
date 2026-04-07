@@ -214,7 +214,12 @@ title: reverie baroque
 <section id="watch">
   <h2>watch & listen</h2>
   <p>
-    video here
+    <div class="video-container">
+  <iframe src="https://www.youtube.com/embed/6Y3e35OysJs?si=XrGNTDBrnTMoq9xh"  
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
   </p>
 </section>
 
