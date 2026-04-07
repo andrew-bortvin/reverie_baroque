@@ -1,6 +1,7 @@
 title: reverie baroque
 description: Website for Early Music group, reverie baroque
 baseurl: "/reverie_baroque"
+url: "https://www.reveriebaroque.com"
 theme: minima
 
 minima:
