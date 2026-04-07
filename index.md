@@ -159,7 +159,8 @@ title: reverie baroque
 
 <section id="watch">
   <h2>watch & listen</h2>
-
+  <p>
+    video here
   </p>
 </section>
 
@@ -167,7 +168,7 @@ title: reverie baroque
   <h2>contact</h2>
   <p>
     contact info
-</p>
+  </p>
 </section>
 
 
