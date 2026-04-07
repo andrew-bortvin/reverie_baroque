@@ -706,6 +706,10 @@ body.section-contact {
   .nav-menu.open {
     display: flex;
   }
+
+  .nav-toggle {
+  background: red !important;
+}
 }
 
 @media (max-width: 400px) {
