@@ -654,6 +654,11 @@ body.section-contact {
     box-shadow: none !important;
   }
 
+  .site-nav {
+    width: auto !important;
+    display: inline-block; 
+  }
+
   .site-header {
     position: relative;
     width: auto;
@@ -665,6 +670,7 @@ body.section-contact {
     flex-direction: column;
     align-items: flex-start;
     margin: 0.5rem 1rem;
+    width: auto;  
   }
 
   /* Logo stays on top */
@@ -706,10 +712,6 @@ body.section-contact {
   .nav-menu.open {
     display: flex;
   }
-
-  .nav-toggle {
-  background: red !important;
-}
 }
 
 @media (max-width: 400px) {
