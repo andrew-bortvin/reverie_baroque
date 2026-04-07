@@ -743,6 +743,10 @@ body.section-contact {
     width: 100%;
   }
 
+  .video-container {
+    margin: 2rem 1rem;
+  }
+
 }
 
 @media (max-width: 400px) {
