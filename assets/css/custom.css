@@ -639,6 +639,14 @@ body.section-contact {
 }
 */
 
+.quartet-picture {
+  margin-left: 12rem;
+  margin-right:  2rem;
+  justify-content: center;
+  max-width: calc(100vh - 14 rem);
+
+}
+
 /*VIDEO*/
 .video-container {
   position: relative;
