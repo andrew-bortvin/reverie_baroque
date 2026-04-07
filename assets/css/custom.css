@@ -686,8 +686,7 @@ body.section-contact {
     max-height: none;
     overflow: visible;
 
-    background: none;
-    background-color: transparent;
+    background: transaprent !important;
     padding: 1rem;
     gap: 0.5rem;
 
