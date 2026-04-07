@@ -500,7 +500,10 @@ body.section-contact {
   overflow: hidden;
   transition: 0.4s ease;
   margin-top: 1rem;
-  text-align: justify;
+}
+
+.icon-text {
+    text-align: justify;
 }
 
 /* =========================
