@@ -130,6 +130,28 @@ title: reverie baroque
     <tr>
       <td>
         <div>
+          <span class="Date">April 17</span> <br>
+          <span class="Year">2027</span>
+        </div>
+      </td>
+      <td>
+        <div>
+          <span class="Event">The Affects</span><br>
+          <span class="Event-subtitle">The Block by West Michigan Symphony</span>
+        </div>
+      </td>
+      <td>
+        <div>
+            <span class="Location">Russell Block Building<br>360 W Western Ave Suite 200</span>
+          <span class="Location-city"> Muskegon</span>
+          <span class="Location">, MI 49440</span>
+        </div>
+      </td>
+    </tr>
+    <tr>
+    <tr>
+      <td>
+        <div>
           <span class="Date">May 17</span> <br>
           <span class="Year">2026</span>
         </div>
@@ -141,9 +163,10 @@ title: reverie baroque
       </td>
       <td>
         <div>
-            <span class="Location">Green Church</span><br>
+            <span class="Location">Mount Vernon Place United Methodist Church</span><br>
+             <span class="Location">10 E Mt Vernon Place,</span>
             <span class="Location-city">Baltimore</span>
-            <span class="Location">, MD</span>
+            <span class="Location">, MD 21202</span>
         </div>
       </td>
     </tr>
