@@ -464,7 +464,7 @@ body.section-contact {
   gap: 2rem;
   justify-content: center;
   margin-left: 12rem;
-  padding: 0 2rem;
+  /*padding: 0 2rem;*/
 }
 
 .icon-item {
