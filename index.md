@@ -32,7 +32,7 @@ title: reverie baroque
   </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="andrew">
-      <img src="{{ site.baseurl }}/assets/img/headshots/andrew.jpg" alt="Icon 3" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/andrew.png" alt="Icon 3" />
     </button>
   </div>
 </div>
