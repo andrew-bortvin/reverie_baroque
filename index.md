@@ -35,6 +35,11 @@ title: reverie baroque
         <img src="{{ site.baseurl }}/assets/img/headshots/ian.png" alt="Icon 3" />
       </button>
     </div>
+    <div class="icon-item">
+      <button class="icon-toggle" data-text="evan">
+        <img src="{{ site.baseurl }}/assets/img/headshots/evan.png" alt="Icon 3" />
+      </button>
+    </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
       <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
@@ -69,6 +74,11 @@ title: reverie baroque
   </p>
   <p>
     Ian holds a bachelor’s degree in music performance from The University of Georgia, as well as a master’s degree from The University of Denver, where he served as his studio’s graduate teaching assistant. Ian is currently pursuing a master’s degree in baroque violin at the Juilliard School’s Historical Performance program. Beyond music, Ian enjoys visiting art museums, cooking, and hanging out with his black cat Lilith.
+  </p>
+</div>
+<div id="evan" class="icon-text" style="display:none;">
+  <p>
+    Evan Fraser is a flutist, recorder player, and music theorist driven by a desire to use music as a powerful tool for human connection. He has performed with modern and historical ensembles throughout the Midwest and the East Coast, has placed as a winner or finalist in several international competitions, and has taught students from 7 to 70 years old. After Juilliard, Evan hopes to use his multifaceted training across musical disciplines to connect with, to teach, and to inspire communities wherever he can.
   </p>
 </div>
 <div id="julie" class="icon-text" style="display:none;">
