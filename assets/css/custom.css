@@ -656,6 +656,12 @@ body.section-contact {
     box-shadow: none !important;
   }
 
+  .nave-menu.open{
+    display: flex;
+    background: white !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1)
+  }
+
   .site-nav {
     width: auto !important;
     display: inline-block; 
