@@ -650,6 +650,7 @@ body.section-contact {
   .site-nav,
   .nav-menu {
     margin-top: 0.5rem;
+    margin-left: 1rem;
     background: transparent !important;
     background-color: transparent !important;
     box-shadow: none !important;
@@ -712,9 +713,13 @@ body.section-contact {
   h2,
   h3,
   p,
-  .icon-grid,
-  .schedule-table {
+  .icon-grid {
     margin-left: 2rem;
+  }
+
+  .schedule-table {
+    margin: 0 1rem;
+    width: 100%;
   }
 
 }
