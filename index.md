@@ -15,17 +15,15 @@ title: reverie baroque
   <div class="text-column">
     <p>
       reverie baroque is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. reverie expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
+      <br>
+      <br>
+      Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond.
     </p>
   </div>
   <div class="image-column">
     <img src="{{ site.baseurl }}/assets/img/ian_playing.jpeg" alt="gamba and keys!" />
   </div>
 </div>
-
-  <p>
-    Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond. 
-  </p>
-
   <p>
     reverie is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
   </p>
