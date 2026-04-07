@@ -221,7 +221,7 @@ title: reverie baroque
 <section id="contact">
   <h2>contact</h2>
   <p>
-    contact info
+    Want to get in touch with us? Please email us at: reveriebaroque@gmail.com.
   </p>
 </section>
 
