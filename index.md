@@ -118,7 +118,6 @@ title: reverie baroque
     </p>
   </div>
 </div>
- <p>
 </section>
 
 <section id="quartet">
