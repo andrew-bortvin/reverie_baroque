@@ -645,6 +645,15 @@ body.section-contact {
     background: transparent !important;
   }
 
+  .site-header,
+  .site-header .wrapper,
+  .site-nav,
+  .nav-menu {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
   .site-header {
     position: relative;
     width: auto;
