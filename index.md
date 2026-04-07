@@ -27,7 +27,12 @@ title: reverie baroque
   <h2>members</h2><div class="icon-grid">
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
-      <img src="{{ site.baseurl }}/assets/img/headshots/julie.jpg" alt="Icon 1" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
+    </button>
+  </div>
+    <div class="icon-item">
+    <button class="icon-toggle" data-text="grace">
+      <img src="{{ site.baseurl }}/assets/img/headshots/grace.png" alt="Icon 1" />
     </button>
   </div>
   <div class="icon-item">
@@ -43,6 +48,11 @@ title: reverie baroque
 <div id="julie" class="icon-text" style="display:none;">
   <p>
     As a performer and researcher of Renaissance and Baroque vocal music, American vocalist Julie Knott is committed to music from centuries past, presented through a modern and socially relevant lens. Based in Baltimore, Maryland, she is an avid performer of opera, oratorio, and art songs with a specialization in early music and plainchant. Julie’s 2026 engagements include: her debut with Lorelei Ensemble under the direction of Dr. Beth Willer, on Julius Eastman’s Colors at Yale University, a recital at the Greene Space in New York City hosted by the Gerda Lissner Foundation and Peabody Conservatory, Bach’s St. Matthew Passion with the Baltimore Basilica Schola and early music ensemble “Three Notch’d Road,” premiering the role Sally in Kin Psalms, a new opera by Josiah Garza at the 2640 space in Baltimore, and a spring concert series around the DMV with Prosopopoeia Ensemble. A native of central Pennsylvania, Julie has collaborated with the Hershey and West Shore Symphony Orchestras, as the soloist in Poulenc’s Gloria and Orff’s Carmina Burana, respectively. Julie is a graduate student at the Peabody Institute studying Historical Performance in the voice studio of Ms. Elizabeth Futral.
+  </p>
+</div>
+<div id="grace" class="icon-text" style="display:none;">
+  <p>
+    Grace Mockus is a graduate student at The Juilliard School, where she is equally at home in modern and historical performance practices. Her mentors are renowned performers and pedagogues across music disciplines, and include Peter Sykes, Eva Lymenstull, Sarah Cunningham, Natasha Brofsky, Darrett Adkins, and Joseph Gascho. Grace has performed and studied at numerous festivals, including Orford Musique, the Oregon Bach Festival, Bowdoin International Music Festival, American Bach Soloists Academy, the Smithsonian Academy, and in fellowships with the Chautauqua Festival Orchestra and ARTEK early music ensemble. She has won prizes and honorable mentions in the Rembrandt Young Artists chamber competition and Walgreens National Concerto Competition, and has been featured on WFMT’s Trailblazing Women in Music series and WETA’s Classical Breakdown. Grace has performed with ensembles such as the Detroit Symphony Orchestra, ARTEK, the Fort Greene Orchestra, Theotokos, Reverie Baroque, the Juilliard Orchestra, and the Chicago Philharmonic. She is currently a core member of the West Michigan Symphony. 
   </p>
 </div>
 <div id="andrew" class="icon-text" style="display:none;">
