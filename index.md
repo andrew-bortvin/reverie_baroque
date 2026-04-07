@@ -25,6 +25,11 @@ title: reverie baroque
 
 <section id="members">
   <h2>members</h2><div class="icon-grid">
+    <div class="icon-item">
+      <button class="icon-toggle" data-text="sahana">
+        <img src="{{ site.baseurl }}/assets/img/headshots/sahana.png" alt="Icon 3" />
+      </button>
+    </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
       <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
@@ -45,6 +50,11 @@ title: reverie baroque
 
 <div id="text-display" class="wide-text"></div>
 
+<div id="sahana" class="icon-text" style="display:none;">
+  <p>
+    For violinist Sahana Shravan, chamber music and teaching give meaning to a life in music. From Palm Beach County, Florida to her home in New York City today, her career has evolved into an exploration of how art can serve and create open, compassionate, and accepting communities of artists and audiences.  Her collaborators range from Western classical musicians to period performers to Carnatic and Hindustani singers, composers, and dancers. She was named the 2025 Van Lier Artist of Exceptional Merit, receiving prizes including the Joseph W. Polisi Prize for Artist as Citizen, Joan D. Warren Prize for Student Leadership and Civic Engagement, and the 2025 Benzaquen Career Grant. She has performed at the European American Musical Alliance, Yellowbarn Young Artists Program, and Madeline Island String Quartet Fellowship Program. Sahana received two degrees from The Juilliard School, where she studied with Areta Zhulla and Catherine Cho and was the recipient of a Kovner Fellowship for her graduate studies.
+  </p>
+</div>
 <div id="julie" class="icon-text" style="display:none;">
   <p>
     As a performer and researcher of Renaissance and Baroque vocal music, American vocalist Julie Knott is committed to music from centuries past, presented through a modern and socially relevant lens. Based in Baltimore, Maryland, she is an avid performer of opera, oratorio, and art songs with a specialization in early music and plainchant. Julie’s 2026 engagements include: her debut with Lorelei Ensemble under the direction of Dr. Beth Willer, on Julius Eastman’s Colors at Yale University, a recital at the Greene Space in New York City hosted by the Gerda Lissner Foundation and Peabody Conservatory, Bach’s St. Matthew Passion with the Baltimore Basilica Schola and early music ensemble “Three Notch’d Road,” premiering the role Sally in Kin Psalms, a new opera by Josiah Garza at the 2640 space in Baltimore, and a spring concert series around the DMV with Prosopopoeia Ensemble. A native of central Pennsylvania, Julie has collaborated with the Hershey and West Shore Symphony Orchestras, as the soloist in Poulenc’s Gloria and Orff’s Carmina Burana, respectively. Julie is a graduate student at the Peabody Institute studying Historical Performance in the voice studio of Ms. Elizabeth Futral.
