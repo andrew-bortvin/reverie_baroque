@@ -57,69 +57,15 @@ title: reverie baroque
   <h2>duo aragosta</h2>
 
   <p>
-  “Nantucket itself,” said Mr. Webster, “is a very striking and
-  peculiar portion of the National interest. There is a population of
-  eight or nine thousand persons living here in the sea, adding largely
-  every year to the National wealth by the boldest and most persevering
-  industry.” —_Report of Daniel Webster’s Speech in the U. S. Senate,
-  on the application for the Erection of a Breakwater at Nantucket_.
-  1828.
-  </p>
-
-  <p>
-  “The whale fell directly over him, and probably killed him in a
-  moment.” —“_The Whale and his Captors, or The Whaleman’s Adventures
-  and the Whale’s Biography, gathered on the Homeward Cruise of the
-  Commodore Preble_.” _By Rev. Henry T. Cheever_.
-  </p>
-
-  <p>
-  “If you make the least damn bit of noise,” replied Samuel, “I will
-  send you to hell.” —_Life of Samuel Comstock_ (_the mutineer_), _by
-  his brother, William Comstock. Another Version of the whale-ship
-  Globe narrative_.
-  </p>
-
-  <p>
-  “The voyages of the Dutch and English to the Northern Ocean, in
-  order, if possible, to discover a passage through it to India, though
-  they failed of their main object, laid-open the haunts of the whale.”
-  —_McCulloch’s Commercial Dictionary_.
+    Created by the continuo team and founders of reverie baroque, duo aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. We enjoy collaborating with a range of programs and soloists!
   </p>
 </section>
 
 <section id="quartet">
   <h2>quartet euterpe</h2>
-
+    Euterpe Quartet is driven by a similar mission of scholarly rigor and technical mastery, but explores the classical and early romantic periods with historical equipment. The ensemble is comprised of a quintet of excellent 
   <p>
-  “Nantucket itself,” said Mr. Webster, “is a very striking and
-  peculiar portion of the National interest. There is a population of
-  eight or nine thousand persons living here in the sea, adding largely
-  every year to the National wealth by the boldest and most persevering
-  industry.” —_Report of Daniel Webster’s Speech in the U. S. Senate,
-  on the application for the Erection of a Breakwater at Nantucket_.
-  1828.
-  </p>
-
-  <p>
-  “The whale fell directly over him, and probably killed him in a
-  moment.” —“_The Whale and his Captors, or The Whaleman’s Adventures
-  and the Whale’s Biography, gathered on the Homeward Cruise of the
-  Commodore Preble_.” _By Rev. Henry T. Cheever_.
-  </p>
-
-  <p>
-  “If you make the least damn bit of noise,” replied Samuel, “I will
-  send you to hell.” —_Life of Samuel Comstock_ (_the mutineer_), _by
-  his brother, William Comstock. Another Version of the whale-ship
-  Globe narrative_.
-  </p>
-
-  <p>
-  “The voyages of the Dutch and English to the Northern Ocean, in
-  order, if possible, to discover a passage through it to India, though
-  they failed of their main object, laid-open the haunts of the whale.”
-  —_McCulloch’s Commercial Dictionary_.
+    
   </p>
 </section>
 
@@ -214,61 +160,14 @@ title: reverie baroque
 
 <section id="watch">
   <h2>watch & listen</h2>
-  <p>
-  October 13.  “There she blows,” was sung out from the mast-head.
-  “Where away?” demanded the captain. “Three points off the lee bow,
-  sir.” “Raise up your wheel.  Steady!”  “Steady, sir.” “Mast-head
-  ahoy! Do you see that whale now?” “Ay ay, sir!  A shoal of Sperm
-  Whales! There she blows!  There she breaches!” “Sing out! sing out
-  every time!” “Ay Ay, sir!  There she blows! there—there—_thar_ she
-  blows—bowes—bo-o-os!” “How far off?” “Two miles and a half.” “Thunder
-  and lightning! so near!  Call all hands.” —_J. Ross Browne’s Etchings
-  of a Whaling Cruize_.  1846.
-</p>
 
-  <p>
-  “The Whale-ship Globe, on board of which vessel occurred the horrid
-  transactions we are about to relate, belonged to the island of
-  Nantucket.” —“_Narrative of the Globe Mutiny_,” _by Lay and Hussey
-  survivors. A.D._ 1828.
-</p>
-
-  <p>
-    Being once pursued by a whale which he had wounded, he parried the
-    assault for some time with a lance; but the furious monster at length
-    rushed on the boat; himself and comrades only being preserved by
-    leaping into the water when they saw the onset was inevitable.”
-    —_Missionary Journal of Tyerman and Bennett_.
   </p>
 </section>
 
 <section id="contact">
   <h2>contact</h2>
   <p>
-  “Mad with the agonies he endures from these fresh attacks, the
-  infuriated Sperm Whale rolls over and over; he rears his enormous
-  head, and with wide expanded jaws snaps at everything around him; he
-  rushes at the boats with his head; they are propelled before him with
-  vast swiftness, and sometimes utterly destroyed.... It is a matter of
-  great astonishment that the consideration of the habits of so
-  interesting, and, in a commercial point of view, so important an
-  animal (as the Sperm Whale) should have been so entirely neglected,
-  or should have excited so little curiosity among the numerous, and
-  many of them competent observers, that of late years, must have
-  possessed the most abundant and the most convenient opportunities of
-  witnessing their habitudes.” —_Thomas Beale’s History of the Sperm
-  Whale_, 1839.
-</p>
-
-  <p>
-  “The Cachalot” (Sperm Whale) “is not only better armed than the True
-  Whale” (Greenland or Right Whale) “in possessing a formidable weapon
-  at either extremity of its body, but also more frequently displays a
-  disposition to employ these weapons offensively and in manner at once
-  so artful, bold, and mischievous, as to lead to its being regarded as
-  the most dangerous to attack of all the known species of the whale
-  tribe.” —_Frederick Debell Bennett’s Whaling Voyage Round the Globe_,
-  1840.
+    contact info
 </p>
 </section>
 
