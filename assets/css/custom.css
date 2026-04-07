@@ -649,7 +649,7 @@ body.section-contact {
   .site-header .wrapper,
   .site-nav,
   .nav-menu {
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     background: transparent !important;
     background-color: transparent !important;
     box-shadow: none !important;
