@@ -402,8 +402,11 @@ body.section-contact {
 }
 
 .idx-logo {
-  height: 8rem;
-  object-fit: cover;
+  /*height: 8rem;
+  object-fit: cover;*/
+  width: 100%;
+  max-height: 8rem;
+  display: block;
 }
 
 /* =========================
