@@ -63,9 +63,8 @@ title: reverie baroque
 
 <section id="quartet">
   <h2>quartet euterpe</h2>
-    Euterpe Quartet is driven by a similar mission of scholarly rigor and technical mastery, but explores the classical and early romantic periods with historical equipment. The ensemble is comprised of a quintet of excellent 
   <p>
-    
+       Euterpe Quartet is driven by a similar mission of scholarly rigor and technical mastery, but explores the classical and early romantic periods with historical equipment. The ensemble is comprised of a quintet of excellent 
   </p>
 </section>
 
