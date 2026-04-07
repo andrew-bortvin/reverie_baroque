@@ -10,43 +10,47 @@ title: reverie baroque
 </section>
 
 <section id="about">
-  <h2>about us</h2>
   <p>
-    It was a queer sort of place—a gable-ended old house, one side palsied as it were, and leaning over sadly. It stood on a sharp bleak corner, where that tempestuous wind Euroclydon kept up a worse howling than ever it did about poor Paul’s tossed craft. Euroclydon, nevertheless, is a mighty pleasant zephyr to any one in-doors, with his feet on the hob quietly toasting for bed. “In judging of that tempestuous wind called Euroclydon,” says an old writer—of whose works I possess the only copy extant—“it maketh a marvellous difference, whether thou lookest out at it from a glass window where the frost is all on the outside, or whether thou observest it from that sashless window, where the frost is on both sides, and of which the wight Death is the only glazier.” True enough, thought I, as this passage occurred to my mind—old black-letter, thou reasonest well. Yes, these eyes are windows, and this body of mine is the house. What a pity they didn’t stop up the chinks and the crannies though, and thrust in a little lint here and there. But it’s too late to make any improvements now. The universe is finished; the copestone is on, and the chips were carted off a million years ago. Poor Lazarus there, chattering his teeth against the curbstone for his pillow, and shaking off his tatters with his shiverings, he might plug up both ears with rags, and put a corn-cob into his mouth, and yet that would not keep out the tempestuous Euroclydon. Euroclydon! says old Dives, in his red silken wrapper—(he had a redder one afterwards) pooh, pooh! What a fine frosty night; how Orion glitters; what northern lights! Let them talk of their oriental summer climes of everlasting conservatories; give me the privilege of making my own summer with my own coals.
+    reverie baroque is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. reverie expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
+  </p>
+
+  <p>
+    Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond. 
+  </p>
+
+  <p>
+    reverie is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
   </p>
 </section>
 
 <section id="members">
-  <h2>members</h2>
-  <p>
-  “These things are reciprocal; the ball rebounds, only to bound
-  forward again; for now in laying open the haunts of the whale, the
-  whalemen seem to have indirectly hit upon new clews to that same
-  mystic North-West Passage.” —_From_ “_Something_” _unpublished_.
-</p>
+  <h2>members</h2><div class="icon-grid">
+  <div class="icon-item">
+    <button class="icon-toggle" data-text="julie">
+      <img src="{{ site.baseurl }}/assets/img/headshots/julie.jpg" alt="Icon 1" />
+    </button>
+  </div>
+  <div class="icon-item">
+    <button class="icon-toggle" data-text="andrew">
+      <img src="{{ site.baseurl }}/assets/img/headshots/andrew.jpg" alt="Icon 3" />
+    </button>
+  </div>
+</div>
 
-  <p>
-  “It is impossible to meet a whale-ship on the ocean without being
-  struck by her near appearance. The vessel under short sail, with
-  look-outs at the mast-heads, eagerly scanning the wide expanse around
-  them, has a totally different air from those engaged in regular
-  voyage.” —_Currents and Whaling. U.S. Ex. Ex_.
-  </p>
 
-  <p>
-  “Pedestrians in the vicinity of London and elsewhere may recollect
-  having seen large curved bones set upright in the earth, either to
-  form arches over gateways, or entrances to alcoves, and they may
-  perhaps have been told that these were the ribs of whales.” —_Tales
-  of a Whale Voyager to the Arctic Ocean_.
-  </p>
+<div id="text-display" class="wide-text"></div>
 
+<div id="julie" class="icon-text" style="display:none;">
   <p>
-  “It was not till the boats returned from the pursuit of these whales,
-  that the whites saw their ship in bloody possession of the savages
-  enrolled among the crew.” —_Newspaper Account of the Taking and
-  Retaking of the Whale-Ship Hobomack_.
+    As a performer and researcher of Renaissance and Baroque vocal music, American vocalist Julie Knott is committed to music from centuries past, presented through a modern and socially relevant lens. Based in Baltimore, Maryland, she is an avid performer of opera, oratorio, and art songs with a specialization in early music and plainchant. Julie’s 2026 engagements include: her debut with Lorelei Ensemble under the direction of Dr. Beth Willer, on Julius Eastman’s Colors at Yale University, a recital at the Greene Space in New York City hosted by the Gerda Lissner Foundation and Peabody Conservatory, Bach’s St. Matthew Passion with the Baltimore Basilica Schola and early music ensemble “Three Notch’d Road,” premiering the role Sally in Kin Psalms, a new opera by Josiah Garza at the 2640 space in Baltimore, and a spring concert series around the DMV with Prosopopoeia Ensemble. A native of central Pennsylvania, Julie has collaborated with the Hershey and West Shore Symphony Orchestras, as the soloist in Poulenc’s Gloria and Orff’s Carmina Burana, respectively. Julie is a graduate student at the Peabody Institute studying Historical Performance in the voice studio of Ms. Elizabeth Futral.
   </p>
+</div>
+<div id="andrew" class="icon-text" style="display:none;">
+  <p>
+    Andrew Bortvin is a versatile keyboardist based in Baltimore and New York City. His primary teachers include Peter Sykes and Adam Pearl. He has performed in festivals and workshops such as the San Francisco Early Music Society’s Baroque Workshop, St. Andrew’s Baroque Performance Course, the Oberlin Baroque Performance Institute, and Amherst Early Music Academy. Andrew performs extensively throughout the east coast with the Baltimore Baroque Band, Peabody Renaissance Ensemble, Prosopopoeia Ensemble, and in opera and chamber music ensembles. Outside of early music, Andrew has earned his PhD at Johns Hopkins University in computational biology.
+  </p>
+</div>
+<script src="{{ site.baseurl }}/assets/js/members.js"></script>
 </section>
 
 <section id="duo">
