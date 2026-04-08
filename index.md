@@ -105,11 +105,9 @@ title: reverie baroque
   <p>
     A native New Yorker, Jessica Slade found her home on the viola when she was young and has been committed to the instrument’s voice ever since. She has ample experience with anything ranging from historical to modern viola repertoire, and she is an advocate for the viola as a solo instrument. She studied with David Rose at SUNY Fredonia and earned a BM in Music Performance.
   </p>
-  <br>
   <p>
   Jessica has a passion for period performance, both on her instrument of choice and as a dancer. She studies and dances with the New York Baroque Dance Company whose dancers specialize in Baroque dance and early 19th century ballet reconstruction. Not only this, but she is a musician and dancer with ZPiT Galopka, a Polish folk dance ensemble based in New Jersey, as folklore is another one of her passions. She also has experience in Ukrainian, Hungarian, and Mexican folk dance with groups based in NYC.
   </p>
-  <br>
   <p>
     Chamber music has always been something she has enthusiastically dedicated herself to, and she currently plays with Quartet Euterpe, an ensemble composed of young early music professionals Zoe Kushubar, Ian Jones, Grace McKenzie, Jessica Slade, and Grace Mockus. These musicians perform at the highest caliber on both gut and steel strings, and have performed and studied at institutions such as the Juilliard School, Oregon Bach Festival, the American Bach Soloists Academy, and the Smithsonian Haydn Academy. 
   </p>
