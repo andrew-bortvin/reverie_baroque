@@ -56,6 +56,11 @@ title: reverie baroque
     </button>
   </div>
     <div class="icon-item">
+    <button class="icon-toggle" data-text="felix">
+      <img src="{{ site.baseurl }}/assets/img/headshots/felix.png" alt="Icon 1" />
+    </button>
+  </div>
+    <div class="icon-item">
     <button class="icon-toggle" data-text="grace">
       <img src="{{ site.baseurl }}/assets/img/headshots/grace.png" alt="Icon 1" />
     </button>
@@ -94,6 +99,11 @@ title: reverie baroque
 <div id="julie" class="icon-text" style="display:none;">
   <p>
     As a performer and researcher of Renaissance and Baroque vocal music, American vocalist Julie Knott is committed to music from centuries past, presented through a modern and socially relevant lens. Based in Baltimore, Maryland, she is an avid performer of opera, oratorio, and art songs with a specialization in early music and plainchant. Julie’s 2026 engagements include: her debut with Lorelei Ensemble under the direction of Dr. Beth Willer, on Julius Eastman’s Colors at Yale University, a recital at the Greene Space in New York City hosted by the Gerda Lissner Foundation and Peabody Conservatory, Bach’s St. Matthew Passion with the Baltimore Basilica Schola and early music ensemble “Three Notch’d Road,” premiering the role Sally in Kin Psalms, a new opera by Josiah Garza at the 2640 space in Baltimore, and a spring concert series around the DMV with Prosopopoeia Ensemble. A native of central Pennsylvania, Julie has collaborated with the Hershey and West Shore Symphony Orchestras, as the soloist in Poulenc’s Gloria and Orff’s Carmina Burana, respectively. Julie is a graduate student at the Peabody Institute studying Historical Performance in the voice studio of Ms. Elizabeth Futral.
+  </p>
+</div>
+<div id="felix" class="icon-text" style="display:none;">
+  <p>
+    Felix Aurelius (countertenor) is a 1st year master's student at The Juilliard School studying with Amy Burton. This season, Felix appears in a Liederabend curated by Dr. Lydia Brown at Juilliard, and performs the role of Fragile in <em>huddle</em>, a new piece by Thomas Cabaniss presented by Carnegie Hall as part of their Early Childhood Concerts series. He will also appear in the 2026 iteration of the New Series: Pride Songbook at Juilliard. During his undergraduate studies, also at Juilliard, he performed in Pride Songbook as part of the New Series in 2024 and 2025, as well as performed the roles of Cherubino in Mozart’s <em>Le Nozze di Figaro</em>, and Miles in Britten’s <em>The Turn of the Screw</em>. Aurelius is the winner of an Encouragement Award from the New Orleans District of the 2025/2026 Laffont Competition. He is a member of the <em>Pants Role Project</em>, a short film founded and directed by Theo Claveles about Transgender and Nonbinary opera singers. Aurelius aims to reach other Queer and Trans singers with a passion for opera to help younger LGBTQ+ artists feel more welcome within the classical space. Felix is also an alumnus of the New Orleans Center for Creative Arts. 
   </p>
 </div>
 <div id="grace" class="icon-text" style="display:none;">
