@@ -14,14 +14,14 @@ title: reverie baroque
   <div class="text-image-row">
   <div class="text-column">
     <p>
-      reverie baroque is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. reverie expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
+      <em>reverie baroque</em> is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. reverie expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
       <br>
       <br>
       Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond.
     </p>
     <br>
     <p>
-         reverie is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
+         <em>reverie</em> is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
     </p>
   </div>
   <div class="image-column">
@@ -115,7 +115,7 @@ title: reverie baroque
   <div class="text-image-row">
   <div class="text-column">
     <p>
-      Created by the continuo team and founders of reverie baroque, Duo Aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. From in-depth concentration, such as a program of only French viol repertoire, to an all-encompassing “tasting menu” of the styles and affects of the early music world, Duo Aragosta can play it all. We enjoy collaborating with a range of programs and soloists! 
+      Created by the continuo team and founders of <em>reverie baroque</em>, Duo Aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. From in-depth concentration, such as a program of only French viol repertoire, to an all-encompassing “tasting menu” of the styles and affects of the early music world, Duo Aragosta can play it all. We enjoy collaborating with a range of programs and soloists! 
     </p>
   </div>
   <div class="image-column">
@@ -279,7 +279,7 @@ title: reverie baroque
 <section id="contact">
   <h2>contact</h2>
   <p>
-    Want to get in touch with us? Please email us at: <i>reveriebaroque@gmail.com</i>.
+    Want to get in touch with us? Please email us at: <em>reveriebaroque@gmail.com</em>.
   </p>
 </section>
 
