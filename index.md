@@ -188,7 +188,6 @@ title: reverie baroque
         <span class="Location">Russell Block Building<br>360 W Western Ave Suite 200</span><br>
         <span class="Location-city">Muskegon</span><span class="Location">, MI 49440</span>
       </td>
-      <td></td>
     </tr>
     <tr>
       <td>
@@ -204,7 +203,6 @@ title: reverie baroque
         <span class="Location-city">Baltimore</span>
         <span class="Location">, MD 21202</span>
       </td>
-      <td></td>
     </tr>
     <tr>
       <td>
@@ -220,7 +218,6 @@ title: reverie baroque
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
-      <td></td>
     </tr>
     <tr>
       <td>
@@ -236,7 +233,6 @@ title: reverie baroque
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
-      <td></td>
     </tr>
     <tr>
       <td>
@@ -253,7 +249,6 @@ title: reverie baroque
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
-      <td></td>
     </tr>
   </tbody>
 </table>
