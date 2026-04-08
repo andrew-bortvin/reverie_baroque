@@ -19,14 +19,18 @@ title: reverie baroque
       <br>
       Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond.
     </p>
+    <br>
+    <p>
+         reverie is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
+    </p>
   </div>
   <div class="image-column">
     <img src="{{ site.baseurl }}/assets/img/ian_playing.jpeg" alt="gamba and keys!" />
   </div>
 </div>
-  <p>
+<!--   <p>
     reverie is powered by the equal pillars of scholarship and performance. In our programs, you’ll hear familiar favorites alongside modern premieres, each performed with unifying passion, skill, and knowledge. 
-  </p>
+  </p> -->
 </section>
 
 <section id="members">
