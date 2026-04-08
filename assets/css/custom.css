@@ -669,6 +669,19 @@ body.section-contact {
 
 @media (max-width: 768px) {
 
+  .text-image-row {
+    flex-direction: column;   /* stack vertically */
+  }
+
+  .text-column,
+  .image-column {
+      margin-left: 0rem;
+      padding: 0 1rem; 
+      margin-right: 0rem;
+      flex: unset;              /* variable sizing*/
+      width: 90%;
+  }
+
   header {
     background: transparent !important;
   }
