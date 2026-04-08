@@ -50,6 +50,11 @@ title: reverie baroque
         <img src="{{ site.baseurl }}/assets/img/headshots/evan.png" alt="Icon 3" />
       </button>
     </div>
+   <div class="icon-item">
+      <button class="icon-toggle" data-text="jess">
+        <img src="{{ site.baseurl }}/assets/img/headshots/jess.png" alt="Icon 3" />
+      </button>
+    </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
       <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
@@ -96,6 +101,19 @@ title: reverie baroque
     Evan Fraser is a flutist, recorder player, and music theorist driven by a desire to use music as a powerful tool for human connection. He has performed with modern and historical ensembles throughout the Midwest and the East Coast, has placed as a winner or finalist in several international competitions, and has taught students from 7 to 70 years old. After Juilliard, Evan hopes to use his multifaceted training across musical disciplines to connect with, to teach, and to inspire communities wherever he can.
   </p>
 </div>
+<div id="jess" class="icon-text" style="display:none;">
+  <p>
+    A native New Yorker, Jessica Slade found her home on the viola when she was young and has been committed to the instrument’s voice ever since. She has ample experience with anything ranging from historical to modern viola repertoire, and she is an advocate for the viola as a solo instrument. She studied with David Rose at SUNY Fredonia and earned a BM in Music Performance.
+  </p>
+  <br>
+  <p>
+  Jessica has a passion for period performance, both on her instrument of choice and as a dancer. She studies and dances with the New York Baroque Dance Company whose dancers specialize in Baroque dance and early 19th century ballet reconstruction. Not only this, but she is a musician and dancer with ZPiT Galopka, a Polish folk dance ensemble based in New Jersey, as folklore is another one of her passions. She also has experience in Ukrainian, Hungarian, and Mexican folk dance with groups based in NYC.
+  </p>
+  <br>
+  <p>
+    Chamber music has always been something she has enthusiastically dedicated herself to, and she currently plays with Quartet Euterpe, an ensemble composed of young early music professionals Zoe Kushubar, Ian Jones, Grace McKenzie, Jessica Slade, and Grace Mockus. These musicians perform at the highest caliber on both gut and steel strings, and have performed and studied at institutions such as the Juilliard School, Oregon Bach Festival, the American Bach Soloists Academy, and the Smithsonian Haydn Academy. 
+  </p>
+</div>
 <div id="julie" class="icon-text" style="display:none;">
   <p>
     As a performer and researcher of Renaissance and Baroque vocal music, American vocalist Julie Knott is committed to music from centuries past, presented through a modern and socially relevant lens. Based in Baltimore, Maryland, she is an avid performer of opera, oratorio, and art songs with a specialization in early music and plainchant. Julie’s 2026 engagements include: her debut with Lorelei Ensemble under the direction of Dr. Beth Willer, on Julius Eastman’s Colors at Yale University, a recital at the Greene Space in New York City hosted by the Gerda Lissner Foundation and Peabody Conservatory, Bach’s St. Matthew Passion with the Baltimore Basilica Schola and early music ensemble “Three Notch’d Road,” premiering the role Sally in Kin Psalms, a new opera by Josiah Garza at the 2640 space in Baltimore, and a spring concert series around the DMV with Prosopopoeia Ensemble. A native of central Pennsylvania, Julie has collaborated with the Hershey and West Shore Symphony Orchestras, as the soloist in Poulenc’s Gloria and Orff’s Carmina Burana, respectively. Julie is a graduate student at the Peabody Institute studying Historical Performance in the voice studio of Ms. Elizabeth Futral.
@@ -103,7 +121,7 @@ title: reverie baroque
 </div>
 <div id="felix" class="icon-text" style="display:none;">
   <p>
-    Felix Aurelius (countertenor) is a 1st year master's student at The Juilliard School studying with Amy Burton. This season, Felix appears in a Liederabend curated by Dr. Lydia Brown at Juilliard, and performs the role of Fragile in <em>huddle</em>, a new piece by Thomas Cabaniss presented by Carnegie Hall as part of their Early Childhood Concerts series. He will also appear in the 2026 iteration of the New Series: Pride Songbook at Juilliard. During his undergraduate studies, also at Juilliard, he performed in Pride Songbook as part of the New Series in 2024 and 2025, as well as performed the roles of Cherubino in Mozart’s <em>Le Nozze di Figaro</em>, and Miles in Britten’s <em>The Turn of the Screw</em>. Aurelius is the winner of an Encouragement Award from the New Orleans District of the 2025/2026 Laffont Competition. He is a member of the <em>Pants Role Project</em>, a short film founded and directed by Theo Claveles about Transgender and Nonbinary opera singers. Aurelius aims to reach other Queer and Trans singers with a passion for opera to help younger LGBTQ+ artists feel more welcome within the classical space. Felix is also an alumnus of the New Orleans Center for Creative Arts. 
+    Felix Aurelius (countertenor) is a 1st year master's student at The Juilliard School studying with Amy Burton. This season, Felix appears in a Liederabend curated by Dr. Lydia Brown at Juilliard, and performs the role of Fragile in <em>huddle</em>, a new piece by Thomas Cabaniss presented by Carnegie Hall as part of their Early Childhood Concerts series. He will also appear in the 2026 iteration of the New Series: Pride Songbook at Juilliard. During his undergraduate studies, also at Juilliard, he performed in Pride Songbook as part of the New Series in 2024 and 2025, as well as performed the roles of Cherubino in Mozart’s <em>Le Nozze di Figaro</em>, and Miles in Britten’s <em>The Turn of the Screw</em>. Aurelius is the winner of an Encouragement Award from the New Orleans District of the 2025/2026 Laffont Competition. He is a member of the <em>Pants Role Project</em>x, a short film founded and directed by Theo Claveles about Transgender and Nonbinary opera singers. Aurelius aims to reach other Queer and Trans singers with a passion for opera to help younger LGBTQ+ artists feel more welcome within the classical space. Felix is also an alumnus of the New Orleans Center for Creative Arts. 
   </p>
 </div>
 <div id="grace" class="icon-text" style="display:none;">
