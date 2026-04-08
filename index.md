@@ -14,7 +14,7 @@ title: reverie baroque
   <div class="text-image-row">
   <div class="text-column">
     <p>
-      <em>reverie baroque</em> is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. reverie expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
+      <em>reverie baroque</em> is a fresh early music ensemble committed to delivering creative and powerful performances of both timeless classics and underplayed gems. <em>reverie</em> expands the audience for period performance by bringing accessible, relatable programs both to their home base of New York City and to communities across the United States.  
       <br>
       <br>
       Our members are composed of this generation’s most in-demand young performers across the country and world, regularly performing with groups such as Juilliard415, Carmel Bach Festival, American Bach Soloists, Oregon Bach Festival, Tafelmusik, and beyond.
@@ -129,7 +129,7 @@ title: reverie baroque
 </div>
 <div id="andrew" class="icon-text" style="display:none;">
   <p>
-    Andrew Bortvin is a versatile keyboardist based in Baltimore and New York City. His primary teachers include Peter Sykes and Adam Pearl. He has performed in festivals and workshops such as the San Francisco Early Music Society’s Baroque Workshop, St. Andrew’s Baroque Performance Course, the Oberlin Baroque Performance Institute, and Amherst Early Music Academy. Andrew performs extensively throughout the east coast with the Baltimore Baroque Band, Peabody Renaissance Ensemble, Prosopopoeia Ensemble, and in opera and chamber music ensembles. Outside of early music, Andrew has earned his PhD at Johns Hopkins University in computational biology.
+    Andrew Bortvin is a versatile keyboardist based in Baltimore and New York City. His primary teachers include Peter Sykes and Adam Pearl. He has performed in festivals and workshops such as the San Francisco Early Music Society’s Baroque Workshop, St. Andrew’s Baroque Performance Course, the Oberlin Baroque Performance Institute, and Amherst Early Music Academy. Andrew performs extensively throughout the east coast with the Baltimore Baroque Band, Peabody Renaissance Ensemble, Prosopopoeia Ensemble, and in opera and chamber music ensembles. Outside of early music, Andrew has earned his PhD in computational biology at Johns Hopkins University.
   </p>
 </div>
 <script src="{{ site.baseurl }}/assets/js/members.js"></script>
