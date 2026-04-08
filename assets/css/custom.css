@@ -765,6 +765,33 @@ body.section-contact {
       margin-left:  1rem;
     }
 
+     .icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .icon-item {
+    flex: 1 1 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Icon images scale with container */
+  .icon-item img,
+  .icon-toggle img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+  }
+
 }
 
 @media (max-width: 400px) {
