@@ -433,8 +433,8 @@ body.section-contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: 0rem; /*gap between text and image*/
+  margin: 1rem 0;/*margin for entire container*/
 }
 
 .text-column {
@@ -442,7 +442,7 @@ body.section-contact {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 200;
   font-size: 1.2rem;
-  margin: 0 3rem;
+  margin: 0; /*margin around the text WITHIN THE half of the container*/
   text-align: justify;
 }
 
@@ -455,9 +455,9 @@ body.section-contact {
 
 .image-column img {
   max-width: 100%;
-  width: 75%;
+  width: 80%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 /* =========================
@@ -816,6 +816,14 @@ body.section-contact {
     margin-left:  1rem;
   }
 
+  .text-column {
+    flex: 1;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0 1rem;
+    text-align: justify;
+  }
 }
 
 @media (max-width: 400px) {
