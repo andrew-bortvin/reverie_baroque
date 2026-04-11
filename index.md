@@ -153,7 +153,9 @@ title: reverie baroque
 <section id="quartet">
   <h2>quartet euterpe</h2>
 
-  <img src="{{ site.baseurl }}/assets/img/quartet-2.jpeg" alt="quartet" class="quartet-picture">
+<div class="quartet-area">
+  <img class="quartet-picture" src="{{ site.baseurl }}/assets/img/quartet-2.jpeg" />
+</div>
 
   <div style="height: 2rem;"></div>
 
