@@ -201,7 +201,7 @@ title: reverie baroque
       </td>
       <td>
         <span class="Location">Mount Vernon Place United Methodist Church</span><br>
-        <span class="Location">10 E Mt Vernon Place,</span>
+        <span class="Location">10 E Mt Vernon Place,</span> <br>
         <span class="Location-city">Baltimore</span>
         <span class="Location">, MD 21202</span>
       </td>
@@ -216,7 +216,7 @@ title: reverie baroque
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
@@ -231,7 +231,7 @@ title: reverie baroque
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
@@ -247,7 +247,7 @@ title: reverie baroque
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
       <td>
-        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
       </td>
