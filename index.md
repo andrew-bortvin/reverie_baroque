@@ -256,46 +256,22 @@ title: reverie baroque
 
 <section id="watch">
   <h2>watch & listen</h2>
-  <p>
-    <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/6Y3e35OysJs?si=XrGNTDBrnTMoq9xh"  
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</div>
-</p>
 
-  <p>
-    <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/yK2ITWsxlQc?si=RML70q4FHFi2Xs-Z" 
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="video-grid">
+  <div class="video-item">
+    <iframe src="https://www.youtube.com/embed/6Y3e35OysJs?si=XrGNTDBrnTMoq9xh" allowfullscreen></iframe>
+  </div>
+  <div class="video-item">
+    <iframe src="https://www.youtube.com/embed/yK2ITWsxlQc?si=RML70q4FHFi2Xs-Z" allowfullscreen></iframe>
+  </div>
+  <div class="video-item">
+    <iframe src="https://www.youtube.com/embed/hOKfcxIk9zo?si=XQGTYHrOvLqEqJV5" allowfullscreen></iframe>
+  </div>
+    <div class="video-item">
+    <iframe src="https://www.youtube.com/embed/hAV2jILmClQ?si=BJTE8vuuqdc5tS04" allowfullscreen></iframe>
+  </div>
 </div>
-</p>
-
-  <p>
-    <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/hOKfcxIk9zo?si=XQGTYHrOvLqEqJV5" 
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</div>
-</p>
-
-  <p>
-    <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/hAV2jILmClQ?si=BJTE8vuuqdc5tS04"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</div>
-</p>
 </section>
-
-
-
-
 
 <section id="contact">
   <h2>contact</h2>
