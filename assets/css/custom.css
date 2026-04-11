@@ -825,6 +825,46 @@ body.section-contact {
     font-size: clamp(2.5rem, 5vw, 4rem); /*Size of text scales by screen size*/
     white-space: normal;
   }
+
+.Date {
+  font-size: 2rem;
+}
+
+.Year {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #000000;
+}
+
+.Event {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size:  1.5rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.Event-subtitle {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 200;
+  color: #000000;
+}
+
+.Location {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size:  1rem;
+  font-weight: 300;
+  color: #000000;
+}
+
+.Location-city{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size:  1rem;
+  font-weight: 600;
+  color: #000000;
+}
+
 }
 
 @media (max-width: 400px) {
