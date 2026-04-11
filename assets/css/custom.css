@@ -27,15 +27,14 @@ FONTS
 /* headers */
 h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 5rem); /*Size of text scales by screen size*/
+  white-space: nowrap; /*Text does not overwarp to next line*/
   font-style: italic;
   font-weight: 200;
   color: #000000;
   margin-left: 12rem;
-}
-
-@media (max-width: 768px) {
-  h2 { font-size: 5rem; }
+  max-width: calc(100vw - 12rem); /*constrain size of header*/ 
+  overflow: hidden;
 }
 
 h3 {
@@ -823,6 +822,10 @@ body.section-contact {
     font-size: 1rem;
     margin: 0 1rem;
     text-align: justify;
+  }
+
+  h2{
+    font-size: clamp(2.5rem, 5vw, 4rem); /*Size of text scales by screen size*/
   }
 }
 
