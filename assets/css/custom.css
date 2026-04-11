@@ -33,7 +33,6 @@ h2 {
   font-weight: 200;
   color: #000000;
   margin-left: 12rem;
-  max-width: calc(100vw - 12rem); /*constrain size of header*/ 
   overflow: hidden;
 }
 
@@ -826,6 +825,7 @@ body.section-contact {
 
   h2{
     font-size: clamp(2.5rem, 5vw, 4rem); /*Size of text scales by screen size*/
+    white-space: normal;
   }
 }
 
