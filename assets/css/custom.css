@@ -894,6 +894,10 @@ body.section-contact {
   color: #000000;
 }
 
+.icon-toggle:hover  {
+  transform: scale(1.1);
+}
+
 }
 
 @media (max-width: 400px) {
