@@ -481,18 +481,29 @@ body.section-contact {
 }
 
 .icon-toggle {
-  background: none;
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+
   border: none;
-  cursor: pointer;
+  background: none;
+  padding: 0;
+
+  display: block; 
+
+  transition: transform 0.5s ease;
 }
 
 .icon-toggle img {
-  width: 200px;
-  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  display: block;
 }
 
-.icon-toggle:hover img {
-  transform: scale(1.1);
+.icon-toggle:hover  {
+  transform: scale(1.2);
 }
 
 .icon-dropdown {
@@ -800,13 +811,31 @@ body.section-contact {
   }
 
   /* Icon images scale with container */
-  .icon-item img,
+  /*.icon-item img,
   .icon-toggle img {
     width: 100%;
     max-width: 200px;
     height: auto;
     display: block;
-  }
+  }*/
+
+/*  .icon-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50% 50%;
+  flex-shrink: 0;
+}
+
+.icon-toggle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}*/
 
   .video-grid {
     margin-left:  1rem;

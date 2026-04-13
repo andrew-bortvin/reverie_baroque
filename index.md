@@ -37,42 +37,42 @@ title: reverie baroque
   <h2>members</h2><div class="icon-grid">
     <div class="icon-item">
       <button class="icon-toggle" data-text="sahana">
-        <img src="{{ site.baseurl }}/assets/img/headshots/sahana.png" alt="Icon 3" />
+        <img src="{{ site.baseurl }}/assets/img/headshots/sahana.jpeg" alt="Icon 3" />
       </button>
     </div>
     <div class="icon-item">
       <button class="icon-toggle" data-text="ian">
-        <img src="{{ site.baseurl }}/assets/img/headshots/ian.png" alt="Icon 3" />
+        <img src="{{ site.baseurl }}/assets/img/headshots/ian.jpeg" alt="Icon 3" />
       </button>
     </div>
     <div class="icon-item">
       <button class="icon-toggle" data-text="evan">
-        <img src="{{ site.baseurl }}/assets/img/headshots/evan.png" alt="Icon 3" />
+        <img src="{{ site.baseurl }}/assets/img/headshots/evan.jpeg" alt="Icon 3" />
       </button>
     </div>
    <div class="icon-item">
       <button class="icon-toggle" data-text="jess">
-        <img src="{{ site.baseurl }}/assets/img/headshots/jess.png" alt="Icon 3" />
+        <img src="{{ site.baseurl }}/assets/img/headshots/jess.jpeg" alt="Icon 3" />
       </button>
     </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="julie">
-      <img src="{{ site.baseurl }}/assets/img/headshots/julie.png" alt="Icon 1" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/julie.jpeg" alt="Icon 1" />
     </button>
   </div>
     <div class="icon-item">
     <button class="icon-toggle" data-text="felix">
-      <img src="{{ site.baseurl }}/assets/img/headshots/felix.png" alt="Icon 1" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/felix.jpeg" alt="Icon 1" />
     </button>
   </div>
     <div class="icon-item">
     <button class="icon-toggle" data-text="grace">
-      <img src="{{ site.baseurl }}/assets/img/headshots/grace.png" alt="Icon 1" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/grace.jpeg" alt="Icon 1" />
     </button>
   </div>
   <div class="icon-item">
     <button class="icon-toggle" data-text="andrew">
-      <img src="{{ site.baseurl }}/assets/img/headshots/andrew.png" alt="Icon 3" />
+      <img src="{{ site.baseurl }}/assets/img/headshots/andrew.jpeg" alt="Icon 3" />
     </button>
   </div>
 </div>
