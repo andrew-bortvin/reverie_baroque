@@ -193,6 +193,35 @@ title: reverie baroque
     </tr>
     <tr>
       <td>
+        <span class="Date">June 19</span> <br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">Les Delices de la Solitude</span> <br>
+        <span class="Event-subtitle">  A Celebration of Continuo</span>
+      </td>
+      <td>
+        <span class="Time">3:30 pm</span> <br>
+        <span class="Location">Saint John's in the Village<br>218 W 11th St</span><br>
+        <span class="Location-city">New York</span><span class="Location">, NY 10014</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="Date">June 16</span> <br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">Le Long de la Mer Jolie</span> <br>
+        <span class="Event-subtitle">in collaboration with Ensemble Musica Lucis</span>
+      </td>
+      <td>
+        <span class="Location">Chapelle Notre-Dame-de-Bon-Secours<br>400 Rue Saint-Paul Est</span><br>
+        <span class="Location-city">Montréal</span><span class="Location">, Canada</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <span class="Date">May 17</span><br>
         <span class="Year">2026</span>
       </td>
@@ -242,7 +271,7 @@ title: reverie baroque
         <span class="Year">2025</span>
       </td>
       <td>
-        <span class="Event">Duo Arogosta and Friends:</span><br>
+        <span class="Event">Duo Aragosta and Friends:</span><br>
         <span class="Event">A Baroque Tasting Menu</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
