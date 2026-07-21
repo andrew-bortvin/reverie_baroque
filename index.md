@@ -193,6 +193,37 @@ title: reverie baroque
     </tr>
     <tr>
       <td>
+        <span class="Date">August 27</span> <br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">La Monica and Her Music</span> <br>
+      </td>
+      <td>
+        <span class="Time">1:00 pm</span> <br>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
+        <span class="Location-city">New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="Date">July 27</span> <br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">Sweeter than Roses</span> <br>
+        <span class="Event-subtitle">English and Italian Song</span>
+      </td>
+      <td>
+        <span class="Time">1:00 pm</span> <br>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
+        <span class="Location-city">New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <span class="Date">June 19</span> <br>
         <span class="Year">2026</span>
       </td>
