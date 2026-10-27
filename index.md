@@ -192,6 +192,22 @@ title: reverie baroque
       </td>
     </tr>
     <tr>
+        <tr>
+      <td>
+        <span class="Date">October 28</span><br>
+        <span class="Year">2026</span>
+      </td>
+      <td>
+        <span class="Event">Historical Halloween</span><br>
+      </td>
+          <td>
+        <span class="Time">5:30 pm</span> <br>
+        <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
+        <span class="Location-city">New York</span>
+        <span class="Location">, NY 10023</span>
+      </td>
+    </tr>
+    <tr>
       <td>
         <span class="Date">August 27</span> <br>
         <span class="Year">2026</span>
