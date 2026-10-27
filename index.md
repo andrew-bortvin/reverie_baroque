@@ -192,7 +192,6 @@ title: reverie baroque
       </td>
     </tr>
     <tr>
-        <tr>
       <td>
         <span class="Date">October 28</span><br>
         <span class="Year">2026</span>
