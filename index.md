@@ -215,7 +215,6 @@ title: reverie baroque
         <span class="Event">La Monica and Her Music</span> <br>
       </td>
       <td>
-        <span class="Time">1:00 pm</span> <br>
         <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
@@ -231,7 +230,6 @@ title: reverie baroque
         <span class="Event-subtitle">English and Italian Song</span>
       </td>
       <td>
-        <span class="Time">1:00 pm</span> <br>
         <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
@@ -247,7 +245,6 @@ title: reverie baroque
         <span class="Event-subtitle">  A Celebration of Continuo</span>
       </td>
       <td>
-        <span class="Time">3:30 pm</span> <br>
         <span class="Location">Saint John's in the Village<br>218 W 11th St</span><br>
         <span class="Location-city">New York</span><span class="Location">, NY 10014</span>
       </td>
