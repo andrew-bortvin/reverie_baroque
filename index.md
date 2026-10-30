@@ -36,13 +36,18 @@ title: reverie baroque
 <section id="members">
   <h2>members</h2><div class="icon-grid">
     <div class="icon-item">
-      <button class="icon-toggle" data-text="sahana">
-        <img src="{{ site.baseurl }}/assets/img/headshots/sahana.jpeg" alt="Icon 3" />
+      <button class="icon-toggle" data-text="rachel">
+        <img src="{{ site.baseurl }}/assets/img/headshots/rachel.jpeg" alt="Icon 3" />
+      </button>
+    </div>
+        <div class="icon-item">
+      <button class="icon-toggle" data-text="grace_mckenzie">
+        <img src="{{ site.baseurl }}/assets/img/headshots/grace_mckenzie.jpg" alt="Icon 3" />
       </button>
     </div>
     <div class="icon-item">
-      <button class="icon-toggle" data-text="ian">
-        <img src="{{ site.baseurl }}/assets/img/headshots/ian.jpeg" alt="Icon 3" />
+      <button class="icon-toggle" data-text="tara">
+        <img src="{{ site.baseurl }}/assets/img/headshots/tara.jpeg" alt="Icon 3" />
       </button>
     </div>
     <div class="icon-item">
@@ -80,20 +85,20 @@ title: reverie baroque
 
 <div id="text-display" class="wide-text"></div>
 
-<div id="sahana" class="icon-text" style="display:none;">
+
+<div id="rachel" class="icon-text" style="display:none;">
   <p>
-    For violinist Sahana Shravan, chamber music and teaching give meaning to a life in music. From Palm Beach County, Florida to her home in New York City today, her career has evolved into an exploration of how art can serve and create open, compassionate, and accepting communities of artists and audiences.  Her collaborators range from Western classical musicians to period performers to Carnatic and Hindustani singers, composers, and dancers. She was named the 2025 Van Lier Artist of Exceptional Merit, receiving prizes including the Joseph W. Polisi Prize for Artist as Citizen, Joan D. Warren Prize for Student Leadership and Civic Engagement, and the 2025 Benzaquen Career Grant. She has performed at the European American Musical Alliance, Yellowbarn Young Artists Program, and Madeline Island String Quartet Fellowship Program. Sahana received two degrees from The Juilliard School, where she studied with Areta Zhulla and Catherine Cho and was the recipient of a Kovner Fellowship for her graduate studies.
+    Soprano Rachel Doehring Jackson has been praised for her “absolutely loveable, endearing...remarkable” performances (Seen and Heard Intl.) of repertoire spanning medieval times through modern day.  A sought-after choral artist, she toured the US and London with The English Concert in their 2026 production of Handel’s Hercules, under the baton of Harry Bicket. Previous career highlights include solo performances with Albany Symphony, Peter Serkin, and premieres of new works by Alex Weiser, Kamala Sankaram, Michi Wianko, and Aaron Siegel with Experiments in Opera. Rachel Doehring Jackson holds degrees from Carnegie Mellon University and the Bard College Conservatory Graduate Vocal Arts Program, where she was mentored by Dawn Upshaw. She also enjoys running, baking, and spending time with farm animals.
   </p>
 </div>
-<div id="ian" class="icon-text" style="display:none;">
+<div id="grace_mckenzie" class="icon-text" style="display:none;">
   <p>
-    New York-based classical and baroque violinist Ian Jones has traveled throughout the world, performing a range of repertoire from medieval to contemporary works. Ian’s passion for historical performance practice has brought him to perform with the world’s leading figures in early music, including Rachel Podger, William Christie, Masaaki Suzuki, John Butt, Shunske Sato, Lionel Meunier, among others.
+    Grace McKenzie is an artist, violinist, and baroque violinist from Aotearoa NZ. Currently pursuing Historical Performance at the Juilliard School, she first came to the USA to study at Indiana University. She has since performed at the Carmel Bach Music Festival, attended the Avaloch Farm Institute, and taught violin on a Music Education Mission in the Dominican Republic. Grace seeks collaboration with artists and musicians from diverse perspectives of culture and training, aiming to break down traditional audience–performer boundaries in classical music and broaden its reach. Grace is also a photographer, lover of all things creative, and enjoys finding ways to weave these things into her career as a musician. 
   </p>
+</div>
+<div id="tara" class="icon-text" style="display:none;">
   <p>
-    In 2022, Ian became an artist apprentice with the Baroque Chamber Orchestra of Colorado for two seasons. Additionally, Ian was chosen as a 2023 Corelli Fellow with ARTEK Early Music. Most recently, he was selected as a 2025 fellow with the English Concert in America. Previous and future performance engagements include concerts with ensembles such as the Baroque Chamber Orchestra of Colorado, ARTEK Early Music, Bach Vespers NYC, New York Baroque Incorporated, Teatro Nuovo, Juilliard415, Tafelmusik, Les Arts Florissants, MAFestival Bruges, as well as the American Bach Soloists and Berwick Academy orchestras. As a member of Juilliard415, Ian has concertmastered for Handel’s oratorio Jephtha, under the direction of Nicholas McGegan, and concerto soloed under Alfredo Bernardini.
-  </p>
-  <p>
-    Ian holds a bachelor’s degree in music performance from The University of Georgia, as well as a master’s degree from The University of Denver, where he served as his studio’s graduate teaching assistant. Ian is currently pursuing a master’s degree in baroque violin at the Juilliard School’s Historical Performance program. Beyond music, Ian enjoys visiting art museums, cooking, and hanging out with his black cat Lilith.
+    Tara Hagle is a violinist from Chicago currently studying at the Juilliard School’s Historical Performance Program. She earned her undergraduate degree at the New England Conservatory, where she studied violin with Ayano Ninomiya, and baroque violin with Adriane Post. Recent engagements include projects with the Charlotte Bach Festival, the Bach Project Boston, and as an apprentice at the Valley of the Moon Festival. She was a recipient of the 2026 Early Music America Workshop Scholarship. Tara enjoys lesser-explored soundscapes encompassing all time periods and styles. In addition to early music, she can frequently be found playing the works of today’s composers. 
   </p>
 </div>
 <div id="evan" class="icon-text" style="display:none;">
