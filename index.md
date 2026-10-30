@@ -140,35 +140,6 @@ title: reverie baroque
 <script src="{{ site.baseurl }}/assets/js/members.js"></script>
 </section>
 
-<section id="duo">
-  <h2>duo aragosta</h2>
-
-  <div class="text-image-row">
-  <div class="text-column">
-    <p>
-      Created by the continuo team and founders of <em>reverie baroque</em>, Duo Aragosta explores both the repertoire for bass instruments as well as adventures with guest soloists. From in-depth concentration, such as a program of only French viol repertoire, to an all-encompassing “tasting menu” of the styles and affects of the early music world, Duo Aragosta can play it all. We enjoy collaborating with a range of programs and soloists! 
-    </p>
-  </div>
-  <div class="image-column">
-    <img src="{{ site.baseurl }}/assets/img/duo.jpeg" alt="gamba and keys!" />
-  </div>
-</div>
-</section>
-
-<section id="quartet">
-  <h2>quartet euterpe</h2>
-
-<div class="quartet-area">
-  <img class="quartet-picture" src="{{ site.baseurl }}/assets/img/quartet-2.jpeg" />
-</div>
-
-  <div style="height: 2rem;"></div>
-
-  <p>
-        Quartet Euterpe is driven by a similar mission of scholarly rigor and technical mastery, but explores the classical and early romantic periods with historical equipment. The ensemble is comprised of a quintet of players, rotating based on each program. The Quartet has been selected as the Carmel Bach Festival Baroque and Classical Academy quartet-in-residence for the summer of 2026. Upcoming projects include an exploration of Bologne and Haydn, early Romantic women composers, as well as quintessential quintet repertoire.   
-  </p>
-</section>
-
 <section id="schedule">
   <h2>schedule</h2>
 
