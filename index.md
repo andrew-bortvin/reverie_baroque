@@ -176,7 +176,7 @@ title: reverie baroque
         <span class="Event">Historical Halloween</span><br>
       </td>
           <td>
-        <span class="Time">5:30 pm</span> <br>
+        <!--<span class="Time">5:30 pm</span> <br>-->
         <span class="Location">Juilliard Station<br>130 W. 66th St.,</span> <br>
         <span class="Location-city">New York</span>
         <span class="Location">, NY 10023</span>
