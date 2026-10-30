@@ -466,6 +466,7 @@ body.section-contact {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  max-columns: 3;
   justify-content: center;
   margin-left: 12rem;
   /*padding: 0 2rem;*/
