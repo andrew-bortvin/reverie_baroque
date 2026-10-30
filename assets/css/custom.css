@@ -463,11 +463,12 @@ body.section-contact {
 ========================= */
 
 .icon-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 150px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  margin: 0 auto;
+  margin-left: 12rem;
+  /*padding: 0 2rem;*/
 }
 
 .icon-item {
