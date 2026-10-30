@@ -290,7 +290,6 @@ title: reverie baroque
         <span class="Year">2025</span>
       </td>
       <td>
-        <span class="Event">Duo Aragosta and Friends:</span><br>
         <span class="Event">A Baroque Tasting Menu</span><br>
         <span class="Event-subtitle">Rush Hour Performance</span>
       </td>
