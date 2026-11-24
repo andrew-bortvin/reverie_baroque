@@ -117,6 +117,19 @@ main, header {
   z-index: 2;
 }
 
+/*footer*/
+.site-footer a {
+    display: inline-flex;
+    position: relative;
+    z-index: 999;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.site-footer svg {
+    pointer-events: none;
+}
+
 /*css effects*/
 body::before {
   content: "";
