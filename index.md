@@ -10,7 +10,7 @@ title: reverie baroque
 </section>
 
 <section id="about">
-
+ 
   <div class="text-image-row">
   <div class="text-column">
     <p>
