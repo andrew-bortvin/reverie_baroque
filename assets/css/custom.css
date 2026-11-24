@@ -117,15 +117,21 @@ main, header {
   z-index: 2;
 }
 
-/*footer*/
+/*Footer*/
+.site-footer {
+    position: relative;
+    z-index: 3;
+}
+
 .site-footer a {
     display: inline-flex;
     position: relative;
-    z-index: 999;
+    z-index: 9999;
     pointer-events: auto;
     cursor: pointer;
 }
 
+.site-footer img,
 .site-footer svg {
     pointer-events: none;
 }
